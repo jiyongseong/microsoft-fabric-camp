@@ -1,4 +1,13 @@
-# Microsoft Fabric 시작하기
+# 목차
+Lab 1에서는 다음과 같은 내용들을 살펴봅니다.
+
+- [1.0 Microsoft Fabric 시작하기](#10-microsoft-fabric-시작하기)
+- [1.1 Microsoft Fabric 활성화 하기](#11-microsoft-fabric-활성화-하기)
+- [1.2 테넌트 설정에서 활성화](#12-테넌트-설정에서-활성화)
+- [1.3 Fabric Capacity 만들기](#13-fabric-capacity-만들기)
+- [1.4 작업 영역(Workspace) 만들기](#14-작업-영역workspace-만들기)
+
+# 1.0 Microsoft Fabric 시작하기
 Microsoft Fabric은 Power BI 테넌트와 같은 테넌트를 공유합니다.
 
 사용할 수 있는 환경이 없다면, 다음의 URL을 통해서 **60일 Fabric 무료 평가판**을 사용해보시기 바랍니다.
@@ -10,7 +19,7 @@ Microsoft Fabric은 Power BI 테넌트와 같은 테넌트를 공유합니다.
 Microsft Fabric은 설정에 따라서, 테넌트의 모든 사용자가 사용할 수 있도록 하거나, 지정된 사용자/그룹만 사용하도록 설정할 수 있습니다.
 Microsoft Fabric을 사용하기 위해서는 Fabric을 활성화 하여야 합니다.
 
-# Microsoft Fabric 활성화 하기
+# 1.1 Microsoft Fabric 활성화 하기
 Microsoft Fabric은 다음과 같이 두 가지 방법으로 활성화할 수 있습니다.
 
 - **테넌트 설정**에서 활성화
@@ -22,7 +31,7 @@ Microsoft Fabric은 다음과 같이 두 가지 방법으로 활성화할 수 �
 
 **용량 설정**을 통한 활성화 방법에 대해서는 [공식 문서](https://learn.microsoft.com/ko-kr/fabric/admin/fabric-switch#enable-for-a-capacity)를 참고하시기 바랍니다.
 
-## 테넌트 설정에서 활성화
+# 1.2 테넌트 설정에서 활성화
 먼저, [Fabric portal](https://app.fabric.microsoft.com/)로 접속합니다.
 
 화면 우측 상단에 있는 **설정** 아이콘을 클릭합니다.
@@ -43,7 +52,7 @@ Microsoft Fabric은 다음과 같이 두 가지 방법으로 활성화할 수 �
 
 ![apply](./images/apply.png)
 
-# Fabric Capacity 만들기
+# 1.3 Fabric Capacity 만들기
 먼저, 컴퓨팅 엔진이 동작하기 위한 Fabric capacity를 생성합니다.
 
 [Azure Portal](https://portal.azure.com/)로 이동합니다.
@@ -68,7 +77,7 @@ Fabric capacity 화면에서 다음의 정보를 입력합니다.
 
 ![create fabric capacity](./images/create-fabric-capacity.png)
 
-# 작업 영역(Workspace) 만들기
+# 1.4 작업 영역(Workspace) 만들기
 다음에는 작업 영역(workspace)을 생성합니다.
 
 다시 [Microsoft Fabric 포털](https://app.fabric.microsoft.com/)로 이동합니다.
