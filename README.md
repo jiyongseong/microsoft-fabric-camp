@@ -1,8 +1,29 @@
 # Microsoft Fabric camp
-Microsoft Fabric hands on labs을 위한 repository입니다.
+Microsoft Fabric hands-on lab을 위한 repository입니다.
 
-## Microsoft Fabric in a Day hands on lab
+## Microsoft Fabric in a Day hands-on lab
+Microsoft Fabric의 기초를 학습하기 위한 hands-on lab입니다.
 
 [Lab 0 - Microsoft Fabric Overview](/microsoft-fabric-in-a-day/Lab0%20Microsoft%20Fabric%20Overview/Lab0%20Microsoft%20Fabric%20Overview.md)
 
 [Lab 1 - Microsoft Fabric Getting Started](/microsoft-fabric-in-a-day/Lab1%20Microsoft%20Fabric%20Getting%20Started/Lab02%20Microsoft%20Fabric%20Getting%20Started.md)
+
+[Lab 2 - Lakehouse] - *coming...*
+
+[Lab 3 - Data Warehouse] - *coming...*
+
+[Lab 4 - RTA(Real-Time Analytics)] - *coming...*
+
+## Microsoft Fabric Security hands-on lab
+
+[Lab 0] Network Security - *coming...*
+
+[Lab 1] Workspace & item security - *coming...*
+
+[Lab 2] Microsoft Purview - *coming...*
+
+## 기타
+
+[Microsoft Fabric Copilot integration hands-on lab] - *coming...*
+
+[SQL Databae in Microsoft Fabric hands-on lab] - *coming...*
