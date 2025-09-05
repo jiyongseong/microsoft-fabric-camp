@@ -110,4 +110,4 @@ Fabric capacity 화면에서 다음의 정보를 입력합니다.
 
 ![empty workspace](./images/empty-workspace.png)
 
-Lab 2는 여기까지!
+[Lab0 Microsoft Fabric Overview](/microsoft-fabric-in-a-day/Lab0%20Microsoft%20Fabric%20Overview/Lab0%20Microsoft%20Fabric%20Overview.md) << Lab1 Microsoft Fabric Getting Started >> [TBU]
