@@ -6,7 +6,7 @@ Microsoft Fabric의 기초를 학습하기 위한 hands-on lab입니다.
 
 [Lab 0 - Microsoft Fabric Overview](/microsoft-fabric-in-a-day/Lab0%20Microsoft%20Fabric%20Overview/Lab0%20Microsoft%20Fabric%20Overview.md)
 
-[Lab 1 - Microsoft Fabric Getting Started](/microsoft-fabric-in-a-day/Lab1%20Microsoft%20Fabric%20Getting%20Started/Lab02%20Microsoft%20Fabric%20Getting%20Started.md)
+[Lab 1 - Microsoft Fabric Getting Started](/microsoft-fabric-in-a-day/Lab1%20Microsoft%20Fabric%20Getting%20Started/Lab1%20Microsoft%20Fabric%20Getting%20Started.md)
 
 Lab 2 - Lakehouse
 1. [Overview](/microsoft-fabric-in-a-day/Lab2%20Microosft%20Fabric%20Lakehouse/Lab2%20Microosft%20Fabric%20Lakehouse1.md)
