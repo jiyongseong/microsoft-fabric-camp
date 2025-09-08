@@ -15,6 +15,8 @@ Microsoft Fabric의 기초를 학습하기 위한 hands-on lab입니다.
 [Lab 4 - RTA(Real-Time Analytics)] - *coming...*
 
 ## Microsoft Fabric Security hands-on labs
+Microsoft Fabric의 보안 기능에 대한 hands-on lab입니다.
+
 [Lab 0] Microsoft Fabric Security Overview - *coming...*
 
 [Lab 1] Network Security - *coming...*
@@ -24,6 +26,7 @@ Microsoft Fabric의 기초를 학습하기 위한 hands-on lab입니다.
 [Lab 3] Microsoft Purview - *coming...*
 
 ## Microsoft Fabric Hands-on labs by feature
+Microsoft Fabric에서 제공되는 각 기능별 hands-on lab입니다.
 
 [Microsoft Fabric Copilot integration hands-on lab] - *coming...*
 
