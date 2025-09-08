@@ -9,17 +9,18 @@ Microsoft Fabric의 레이크하우스(lakehouse)는 조직이 정형 데이터(
 
 레이크하우스(lakehouse)는 데이터 레이크(data lake)와 데이터 웨어하우스(data warehouse)의 장점을 결합하여, 기업 데이터의 중복성(duplicity)과 데이터 수집(ingesting), 변환(transforming), 공유(sharing) 과정에서 발생하는 문제를 제거할 수 있습니다.
 
-수집된 데이터는 기본적으로 델타 레이크(Delta Lake) 형식(https://delta.io/)으로 레이크하우스에 저장되며, 테이블은 사용자 대신 메타스토어(metastore)에 자동으로 검색 및 등록되어 Microsoft Fabric 내 모든 엔진에서 원활하게 작업할 수 있도록 제공합니다.
+수집된 데이터는 기본적으로 델타 레이크(Delta Lake) 형식([https://delta.io/](https://delta.io/))으로 레이크하우스에 저장되며, 테이블은 사용자 대신 메타스토어(metastore)에 자동으로 검색 및 등록되어 Microsoft Fabric 내 모든 엔진에서 원활하게 작업할 수 있도록 제공합니다.
 
 # 2.1 메달리온 아키텍처
 
-레이크하우스 기반의 데이터 분석 시스템(data analytics system)은 일반적으로 메달리온 아키텍처(Medallion architecture)(https://learn.microsoft.com/en-us/azure/databricks/lakehouse/medallion)를 따릅니다. 
+레이크하우스 기반의 데이터 분석 시스템(data analytics system)은 일반적으로 메달리온 아키텍처(Medallion architecture)([https://learn.microsoft.com/en-us/azure/databricks/lakehouse/medallion](https://learn.microsoft.com/en-us/azure/databricks/lakehouse/medallion))를 따릅니다. 
 
 이 아키텍처는 브론즈(Bronze), 실버(Silver), 골드(Gold)라는 일련의 데이터 영역(data zones)을 정의하여, 각 단계에서 레이크하우스에 저장된 데이터의 품질을 나타내며, 엔터프라이즈 데이터 제품을 위한 단일 진실 공급원(single source of truth)을 구축하기 위해 다계층 접근 방식을 권장합니다.
 
 예를 들어, 브론즈(Bronze), 실버(Silver), 골드(Gold)라는 용어는 각각 원시(raw), 검증(validated), 강화(enriched) 데이터로 불리기도 하며, 각 계층에서 데이터의 품질을 설명합니다.
 
 ![onelake-medallion-lakehouse-architecture-example](./images/onelake-medallion-lakehouse-architecture-example.png)
+
 *이미지 소스 : [https://learn.microsoft.com/ko-kr/fabric/onelake/onelake-medallion-lakehouse-architecture#medallion-architecture-in-fabric](https://learn.microsoft.com/ko-kr/fabric/onelake/onelake-medallion-lakehouse-architecture#medallion-architecture-in-fabric)*
 
 브론즈 레이크하우스를 생성하여 데이터를 적재하는 작업부터 시작해보겠습니다.
@@ -137,6 +138,7 @@ Mictosoft Fabric 포털 왼쪽 메뉴에서 **Hands on workspace"를 클릭하�
 ![data pipeline execute](./images/data-pipeline-execute.png)
 
 실행이 정상적으로 완료되면, 다음과 같이 **출력** 화면이 보여지게 됩니다.
+
 좌측 메뉴에서 **Hands on workspace**를 클릭하여 작업 영역으로 이동합니다.
 
 ![data pipeline output](./images/data-pipeline-output.png)
@@ -150,15 +152,18 @@ Mictosoft Fabric 포털 왼쪽 메뉴에서 **Hands on workspace"를 클릭하�
 ![refresh](./images/refresh.png)
 
 새로 고침이 완료되면, 다음과 같이 **wwi-raw-data** 폴더가 나타납니다.
+
 폴더를 확장하여 보면, 테이블별로 폴더가 생성되어 있고, 폴더에는 데이터가 csv 파일 형태로 저장되어 있음을 확인할 수 있습니다.
 
 
 ![csv dataset](./images/csv-dataset.png)
 
 **wwi-raw-data/full/dimension_city** 폴더를 클릭하고, 오른쪽 pane에서 아무 csv나 클릭합니다.
+
 다음과 같이, 데이터가 csv 형태로 저장되어 있음을 확인할 수 있습니다.
 
 ![csv dataset preview](./images/csv-dataset-preview.png)
+
 
 **소스(source)**에서 **메달리온 아키텍처(Medallion architecture)**의 **브론즈 영역(Bronze zone)**으로 원시 데이터를 적재(ingest)하였습니다. 다음 단계에서는 이를 변환(transform)하여 **실버 영역(Silver zone)**에 적재하는 작업을 수행해보도록 하겠습니다.
 
