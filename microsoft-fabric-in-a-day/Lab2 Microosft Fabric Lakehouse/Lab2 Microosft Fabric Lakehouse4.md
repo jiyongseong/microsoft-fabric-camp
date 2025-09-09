@@ -1,3 +1,5 @@
+
+[2](#2541-pyspark를-이용한-집계-테이블-생성)
 # 2.5 골드(Gold) 단계
 이제 원시(raw) 데이터가 실버 레이크하우스에 **델타 레이크 테이블** 형태로 저장되었습니다.
 마지막으로 실버 레이크하우스에 있는 **델타 레이크 테이블**들을 골드(Gold) 레이크하우스에 비지니스 집계 테이블로 변환하는 작업을 수행해보도록 하겠습니다.
@@ -194,3 +196,8 @@ FROM aggregate_sale_by_date_employee;
 실행한 결과는 다음과 같습니다.
 
 <img src="./images/aggregate_sale_by_date_employee_result.png" style="width:90%;" alt="aggregate_sale_by_date_employee_result">
+
+
+## 다음
+
+[Lab2 Microosft Fabric Lakehouse - 실버(Silver)](Lab2%20Microosft%20Fabric%20Lakehouse3.md) 단계 << Lab2 Microosft Fabric Lakehouse - 골드(Gold) 단계 >> [Lab2 Microosft Fabric Lakehouse - 분석 단계](Lab2%20Microosft%20Fabric%20Lakehouse5.md)

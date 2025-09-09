@@ -335,4 +335,4 @@ ORDER BY Year, Quarter, Month;
 
 ## 다음
 
-[Lab2 Microosft Fabric Lakehouse - 브론즈(Bronze) 단계](Lab2%20Microosft%20Fabric%20Lakehouse2.md) << Lab2 Microosft Fabric Lakehouse - 실버(Silver) 단계 >> Lab2 Microosft Fabric Lakehouse - 골드(Gold) 단계
+[Lab2 Microosft Fabric Lakehouse - 브론즈(Bronze) 단계](Lab2%20Microosft%20Fabric%20Lakehouse2.md) << Lab2 Microosft Fabric Lakehouse - 실버(Silver) 단계 >> [Lab2 Microosft Fabric Lakehouse - 골드(Gold) 단계](Lab2%20Microosft%20Fabric%20Lakehouse4.md)
