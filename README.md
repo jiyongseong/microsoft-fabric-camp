@@ -15,6 +15,8 @@ Lab 2 - Lakehouse
 
 3. [실버(Silver) 단계](/microsoft-fabric-in-a-day/Lab2%20Microosft%20Fabric%20Lakehouse/Lab2%20Microosft%20Fabric%20Lakehouse3.md) 
 
+4. 골드(Gold) 단계
+
 [Lab 3 - Data Warehouse] - *coming...*
 
 [Lab 4 - RTA(Real-Time Analytics)] - *coming...*

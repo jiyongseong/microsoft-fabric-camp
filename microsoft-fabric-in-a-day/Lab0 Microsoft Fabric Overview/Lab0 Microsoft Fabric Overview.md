@@ -28,15 +28,15 @@ Azure의 컴퓨팅, 스토리지, 안정성, 보안 및 거버넌스, 확장성,
 
 Fabric은 SaaS 제품으로, 제공하는 핵심 기능을 통상 4개로 나누어서 설명을 하곤 합니다.
 
-![microsoft fabric core capability pillars](./images/microsoft-fabric-core-capability-pillars.png)
-
+<img src="./images//microsoft-fabric-core-capability-pillars.png" style="width:70%;" alt="microsoft fabric core capability pillars">
 
 ## 0.1 Complete Analytics Plaform
-![complete analytics platform](./images/complete-analytics-platform.png)
 
 Microsoft Fabric은 데이터 통합, 저장, 처리, 분석, 시각화까지 모든 분석 기능을 하나의 플랫폼에서 제공합니다.
 
 이를 통해서 조직은 여러 도구들이나 서비스들을 연결할 필요 없이, 단일 환경에서 end to end 분석 시스템을 구축할 수 있습니다.
+
+<img src="./images/complete-analytics-platform.png" style="width:70%;" alt="complete analytics platform">
 
 ### 0.1.0 Everything, unified
 
@@ -48,7 +48,7 @@ Microsoft Fabric을 사용하면, 하나의 제품에서 업계 최고 수준의
 
 ### 0.1.1 SaaS
 
-![SaaS](./images/saas.png)
+<img src="./images/saas.png" style="width:70%;" alt="saas">
 
 Microsoft Fabric은 AI 시대를 위해 설계된 단일 SaaS 제품으로 단순성과 통합성을 한 단계 더 끌어올릴 수 있습니다.
 
@@ -60,7 +60,6 @@ SaaS를 통한 얻을 수 있는 주요 장점은 다음과 같습니다.
 - **유연한 분석 환경** : 데이터 위치는 그대로 유지하면서, 개인의 경험과 선호에 따라서 원하는 분석 도구를 자유롭게 선택하여 사용 가능하며, 모두가 동일한 데이터를 기반으로 협업 가능
 
 ### 0.1.2 Persona optimzed experiences
-![persona-optimized-experiences](./images/persona-optimized-experiences.png)
 
 Fabric의 워크로드는 사용자 유형을 중심으로 설계되어, 해당 역할에 최적화된 경험을 제공.
 
@@ -71,13 +70,14 @@ Fabric의 워크로드는 사용자 유형을 중심으로 설계되어, 해당 
 - Power BI 개발자
 - ETL 개발자
 
+<img src="./images/persona-optimized-experiences.png" style="width:70%;" alt="persona-optimized-experiences">
+
 ## 0.2 Lake centric and open 
 오늘날 대부분의 분석 시스템에서는 데이터가 서로 다른 시스템과 저장소에 분산되어 존재하며, 이로 인해 데이터가 사일로 형태로 고립되어 있습니다.
 
 이러한 구조는 여러 계층에서 데이터 중복을 초래할 뿐만 아니라, 시간이 지남에 따라 데이터를 최신 상태로 유지하는 데 시간, 비용, 자원 측면에서 상당한 복잡성을 더하게 됩니다.
 
 ### 0.2.0 Onelake(The OneDrive for Data)
-![onelake](./images/onelake.png)
 
 Fabric은 이러한 문제를 OneLake를 통해서 해결하였습니다.
 Fabric tenant를 생성하면, OneLake는 자동으로 프로비저닝 되어 구성됩니다.
@@ -85,8 +85,9 @@ OneLake는 조직 전체를 위한 단일의 통합된 데이터 레이크라고
 
 M365에서는 OneDrive가 문서를 위한 저장소라면, Fabric에서는 OneLake가 데이터를 위한 단일 저장소 역할을 수행합니다.
 
+<img src="./images/onelake.png" style="width:70%;" alt="onelake">
+
 ### 0.2.1 One Copy
-![onecopy](./images/onecopy.png)
 
 OneLake의 One Copy 개념은 Fabric의 모든 컴퓨팅 엔진이 동일한 데이터를 보고 상호 작용할 수 있도록 해준다는 것을 의미합니다.
 
@@ -94,6 +95,8 @@ OneLake의 One Copy 개념은 Fabric의 모든 컴퓨팅 엔진이 동일한 데
 - 모든 개발자와 사용자가 단일의 통합된 스토리지 시스템을 공유하며, 
 - 데이터 검색과 공유가 간편해지고
 - 정책 및 보안 설정도 모든 엔진에 걸쳐 중앙에서 일관되게 적용할 수 있음을 의미합니다.
+
+<img src="./images/onecopy.png" style="width:70%;" alt="onecopy">
 
 ### 0.2.2 Open format
 OneLake외에도 Microsoft Fabric의 강점 중 하나는 오픈 Delta Lake 포맷을 사용한다는 점입니다.
@@ -103,13 +106,13 @@ Microsoft Fabric의 모든 컴퓨팅 엔진은 기본적으로 Delta Lake 포맷
 이렇게 사실상의 산업 표준으로 사용되는 단일 오픈 포맷을 지원함으로써 데이터를 표준화하였고, 이를 통해서 서로 다른 컴퓨팅 엔진을 위해서 포맷을 변경하거나 데이터를 복사/이동할 필요를 없앨 수 있게 되었습니다.
 
 ### 0.2.3 Shortcut
-![shortcut](./images/shortcut.png)
-
 OneLake의 **Shortcut(바로가기) 기능**은 다른 파일 위치에 저장된 데이터를 참조하는 방식으로 동작합니다.
 
 Shortcut을 이용하면 데이터를 복제할 필요 없이, OneDrive에서 파일을 공유하듯 간편하게 데이터를 공유할 수 있습니다.
 
 위의 그림에서 볼 수 있는 것처럼, Azure의 Blob이나 ADLS Gen2는 물론이고, 다른 클라우드(AWS, GCP)에 존재하는 데이터를 복사하거나 이동하지 않고 연결하여 사용할 수 있습니다.
+
+<img src="./images/shortcut.png" style="width:70%;" alt="shortcut">
 
 ### 0.2.4 OneSecurity
 Microsoft Fabric은 OneSecurity 기능을 통해 모든 엔진에 걸쳐 일관되게 적용되는 **공통 보안 모델**을 제공합니다.
@@ -153,10 +156,9 @@ Microsoft Fabric은 **용량 단위(CU, capacity unit)**를 기반으로 모든 
 
 이러한 **All-in-one** 방식은 사용자가 비용이나 경험에 제약 없이 모든 엔진을 자유롭게 활용할 수 있도록 제공하며, **통합된 비지니스 모델**을 통해 비용을 크게 절감할 수 있습니다.
 
-# 자료
+## 참고 자료
 [Microsoft Fabric Overview FY26 JYSEONG](/microsoft-fabric-in-a-day/Lab0%20Microsoft%20Fabric%20Overview/resources/Microsoft%20Fabric%20Overview%20FY26%20JYSEONG.pdf)
 
---------------
- 
+## 다음
 
 Lab0 Microsoft Fabric Overview >> [Lab1 Microsoft Fabric Getting Started](/microsoft-fabric-in-a-day/Lab1%20Microsoft%20Fabric%20Getting%20Started/Lab1%20Microsoft%20Fabric%20Getting%20Started.md)

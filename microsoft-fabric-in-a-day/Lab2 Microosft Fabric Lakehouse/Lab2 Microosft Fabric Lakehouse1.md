@@ -8,6 +8,13 @@ Lab 2에서는 다음과 같은 내용들을 살펴봅니다.
     - [2.3.1 브론즈 레이크하우스 만들기](Lab2%20Microosft%20Fabric%20Lakehouse2.md#231-브론즈-레이크하우스-만들기)
     - [2.3.2 데이터 파이프 라인 만들기](Lab2%20Microosft%20Fabric%20Lakehouse2.md#232-데이터-파이프-라인-만들기)
     - [2.3.3 데이터 파이프 라인 실행하기](Lab2%20Microosft%20Fabric%20Lakehouse2.md#233-데이터-파이프-라인-실행하기)
+- [2.4 실버(Silver) 단계](Lab2%20Microosft%20Fabric%20Lakehouse3.md#24-실버silver-단계)
+    - [2.4.1 실버 레이크하우스 만들기](Lab2%20Microosft%20Fabric%20Lakehouse3.md#241-실버-레이크하우스-만들기)
+    - [2.4.2 바로 가기(Shortcut) 만들기](Lab2%20Microosft%20Fabric%20Lakehouse3.md#242-바로-가기shortcut-만들기)
+    - [2.4.3 노트북(notebook) 만들기](Lab2%20Microosft%20Fabric%20Lakehouse3.md#243-노트북notebook-만들기)
+    - [2.4.4 데이터 변환 - 차원(dimension) 테이블](Lab2%20Microosft%20Fabric%20Lakehouse3.md#244-데이터-변환---차원dimension-테이블)
+    - [2.4.5 데이터 변환 - 팩트(fact) 테이블](Lab2%20Microosft%20Fabric%20Lakehouse3.md#245-데이터-변환---팩트fact-테이블)
+
 
 ⚠️ 해당 lab은 [Lakehouse end-to-end scenario: overview and architecture](https://learn.microsoft.com/en-us/fabric/data-engineering/tutorial-lakehouse-introduction)의 내용을 기반으로 하였습니다.
 
@@ -28,7 +35,7 @@ Microsoft Fabric의 레이크하우스(lakehouse)는 조직이 정형 데이터(
 
 예를 들어, 브론즈(Bronze), 실버(Silver), 골드(Gold)라는 용어는 각각 원시(raw), 검증(validated), 강화(enriched) 데이터로 불리기도 하며, 각 계층에서 데이터의 품질을 설명합니다.
 
-![onelake-medallion-lakehouse-architecture-example](./images/onelake-medallion-lakehouse-architecture-example.png)
+<img src="./images/onelake-medallion-lakehouse-architecture-example.png" style="width:80%;" alt="onelake-medallion-lakehouse-architecture-example">
 
 *이미지 소스 : [https://learn.microsoft.com/ko-kr/fabric/onelake/onelake-medallion-lakehouse-architecture#medallion-architecture-in-fabric](https://learn.microsoft.com/ko-kr/fabric/onelake/onelake-medallion-lakehouse-architecture#medallion-architecture-in-fabric)*
 
@@ -53,3 +60,7 @@ Microsoft Fabric in a Day hands-on labs에서는 Microsoft에서 제공하는 Wi
 - 차원(Dimension): Stock Item
 
 원본 데이터는 쉼표로 구분된 값(CSV, comma-separated values) 파일 형식으로, 파티션 되지 않은(un-partitioned) 구조를 가지고 있습니다.
+
+## 다음
+
+[Lab1 Microsoft Fabric Getting Started](../Lab1%20Microsoft%20Fabric%20Getting%20Started/Lab1%20Microsoft%20Fabric%20Getting%20Started.md) << Lab2 Microosft Fabric Lakehouse - Overview >> [Lab2 Microosft Fabric Lakehouse - 브론즈(Bronze) 단계](../Lab2%20Microosft%20Fabric%20Lakehouse/Lab2%20Microosft%20Fabric%20Lakehouse2.md)
