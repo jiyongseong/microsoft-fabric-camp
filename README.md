@@ -19,24 +19,24 @@ Lab 2 - Lakehouse
 
 5. [분석 단계](/microsoft-fabric-in-a-day/Lab2%20Microosft%20Fabric%20Lakehouse/Lab2%20Microosft%20Fabric%20Lakehouse5.md)
 
-[Lab 3 - Data Warehouse] - *coming...*
+[Lab 3 - Data Warehouse] - *To be updated...*
 
-[Lab 4 - RTA(Real-Time Analytics)] - *coming...*
+[Lab 4 - RTA(Real-Time Analytics)] - *To be updated...*
 
 ## Microsoft Fabric Security hands-on labs
 Microsoft Fabric의 보안 기능에 대한 hands-on lab입니다.
 
-[Lab 0] Microsoft Fabric Security Overview - *coming...*
+[Lab 0] Microsoft Fabric Security Overview - *To be updated...*
 
-[Lab 1] Network Security - *coming...*
+[Lab 1] Network Security - *To be updated...*
 
-[Lab 2] Workspace & item security - *coming...*
+[Lab 2] Workspace & item security - *To be updated...*
 
-[Lab 3] Microsoft Purview - *coming...*
+[Lab 3] Microsoft Purview - *To be updated...*
 
 ## Microsoft Fabric Hands-on labs by feature
 Microsoft Fabric에서 제공되는 각 기능별 hands-on lab입니다.
 
-[Microsoft Fabric Copilot integration hands-on lab] - *coming...*
+[Microsoft Fabric Copilot integration hands-on lab] - *To be updated...*
 
-[SQL Databae in Microsoft Fabric hands-on lab] - *coming...*
+[SQL Databae in Microsoft Fabric hands-on lab] - *To be updated...*
