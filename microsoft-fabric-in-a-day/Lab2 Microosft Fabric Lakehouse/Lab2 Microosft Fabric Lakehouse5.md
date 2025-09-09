@@ -24,7 +24,7 @@
 
 탐색기가 열리면, 상단의 메뉴 중에서 **새 SQL 쿼리**를 클릭합니다.
 
-<img src="./images/new-sql-query.png" style="width:70%;" alt="new-sql-query">
+<img src="./images/new-sql-query.png" style="width:50%;" alt="new-sql-query">
 
 새 SQL 쿼리 창이 열리면, 아래의 SQL 구문을 복사하여 붙여넣기 합니다.
 
