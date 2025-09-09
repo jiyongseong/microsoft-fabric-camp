@@ -21,6 +21,10 @@ Lab 2에서는 다음과 같은 내용들을 살펴봅니다.
     - [2.5.4 비지니스 집계 테이블 생성](lab2%20Microosft%20Fabric%20Lakehouse4.md#254-비지니스-집계-테이블-생성)
         - [2.5.4.1 PySpark를 이용한 집계 테이블 생성](lab2%20Microosft%20Fabric%20Lakehouse4.md#2541-pyspark를-이용한-집계-테이블-생성)
         - [2.5.4.2 SparkSQL을 이용한 집계 테이블 생성](lab2%20Microosft%20Fabric%20Lakehouse4.md#2542-sparksql을-이용한-집계-테이블-생성)
+- [2.6 분석 단계](Lab2%20Microosft%20Fabric%20Lakehouse5.md#26-분석-단계)
+    - [2.6.1 SQL analytics endpoint](Lab2%20Microosft%20Fabric%20Lakehouse5.md#261-sql-analytics-endpoint)
+    - [2.6.2 Power BI](Lab2%20Microosft%20Fabric%20Lakehouse5.md#262-power-bi)
+    - [2.7 요약](Lab2%20Microosft%20Fabric%20Lakehouse5.md#27-요약)
 
 ⚠️ 해당 lab은 [Lakehouse end-to-end scenario: overview and architecture](https://learn.microsoft.com/en-us/fabric/data-engineering/tutorial-lakehouse-introduction)의 내용을 기반으로 하였습니다.
 
