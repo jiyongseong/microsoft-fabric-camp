@@ -13,7 +13,7 @@ Hands on workspace 화면으로 돌아가서, 상단의 **+새 항목** 버튼�
 
 <img src="./images/create-silver-lakehouse.png" style="width:90%;" alt="create-silver-lakehouse">
 
-**새 lakehouse** 화면에서는 레이크하우스의 이름을 "silver-lakehouse"를 입력하고, **만들기** 버튼을 클릭하여 새로운 레이크하우스를 생성합니다.
+**새 lakehouse** 화면에서는 레이크하우스의 이름을 "silver_lakehouse"를 입력하고, **만들기** 버튼을 클릭하여 새로운 레이크하우스를 생성합니다.
 
 
 <img src="./images/new-lakeshouse(silver).png" style="width:50%;" alt="new-lakeshouse(silver)">
@@ -48,7 +48,7 @@ silver_lakehouse 탐색기에서 **Files >  (...) 점3개**를 클릭하고, **�
 <img src="./images/shortcut.png" style="width:50%;" alt="shortcut">
 
 ## 2.4.3 노트북(notebook) 만들기
-레이크하우스 탐색기의 상단 메뉴에서 **노트북 열기 > 새 Notebook**을 선택하여, 새로운 노트북을 생성합니다.
+silver_lakehouse 레이크하우스 탐색기의 상단 메뉴에서 **노트북 열기 > 새 Notebook**을 선택하여, 새로운 노트북을 생성합니다.
 
 <img src="./images/new-notebook.png" style="width:70%;" alt="new-notebook">
 
@@ -63,6 +63,9 @@ silver_lakehouse 탐색기에서 **Files >  (...) 점3개**를 클릭하고, **�
 새 노트북 이름에 "Migration from Bronze to Silver"라고 입력하고. **저장** 버튼을 클릭합니다.
 
 <img src="./images/notebook-name.png" style="width:50%;" alt="notebook-name">
+
+
+미리 만들어둔 notebook 파일은 [여기](../Lab2%20Microosft%20Fabric%20Lakehouse/resources/Migration%20from%20Bronze%20to%20Silver.ipynb)에서 다운로드 할 수 있습니다.
 
 ## 2.4.4 데이터 변환 - 차원(dimension) 테이블
 

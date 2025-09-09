@@ -17,7 +17,7 @@ Microsoft Fabric 포털에서 좌측 메뉴에서 **작업 영역**을 클릭하
 
 <img src="./images/create-bronze-lakehouse.png" style="width:90%;" alt="create-bronze-lakehouse">
 
-**새 lakehouse** 화면에서는 레이크하우스의 이름을 "bronze-lakehouse"를 입력하고, **만들기** 버튼을 클릭하여 새로운 레이크하우스를 생성합니다.
+**새 lakehouse** 화면에서는 레이크하우스의 이름을 "bronze_lakehouse"를 입력하고, **만들기** 버튼을 클릭하여 새로운 레이크하우스를 생성합니다.
 
 <img src="./images/new-lakehouse.png" style="width:50%;" alt="new-lakehouse">
 
