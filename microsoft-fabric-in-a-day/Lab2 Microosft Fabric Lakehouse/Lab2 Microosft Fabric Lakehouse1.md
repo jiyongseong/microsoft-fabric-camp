@@ -29,7 +29,7 @@ Lab 2에서는 다음과 같은 내용들을 살펴봅니다.
 ⚠️ 해당 lab은 [Lakehouse end-to-end scenario: overview and architecture](https://learn.microsoft.com/en-us/fabric/data-engineering/tutorial-lakehouse-introduction)의 내용을 기반으로 하였습니다.
 
 # 2.0 Microsoft Fabric의 Lakehouse란?
-Microsoft Fabric의 레이크하우스(lakehouse)는 조직이 정형 데이터(structured data), 반정형 데이터(semi-structured data), 비정형 데이터(unstructured data) 등 사실상 모든 유형의 데이터를 단일 위치에 저장하고 관리할 수 있도록 하는 데이터 저장 계층(data storage layer)입니다.
+Microsoft Fabric의 [레이크하우스(lakehouse)](../../microsoft-fabric-whatis-sessions/what-is-lakehouse.md)는 조직이 정형 데이터(structured data), 반정형 데이터(semi-structured data), 비정형 데이터(unstructured data) 등 사실상 모든 유형의 데이터를 단일 위치에 저장하고 관리할 수 있도록 하는 데이터 저장 계층(data storage layer)입니다.
 
 이를 통해 다양한 도구와 프레임워크가 조직의 요구 사항 또는 개인의 선호에 따라 이러한 데이터를 처리하고 분석할 수 있습니다.
 
@@ -39,7 +39,7 @@ Microsoft Fabric의 레이크하우스(lakehouse)는 조직이 정형 데이터(
 
 # 2.1 메달리온 아키텍처
 
-레이크하우스 기반의 데이터 분석 시스템(data analytics system)은 일반적으로 메달리온 아키텍처(Medallion architecture)([https://learn.microsoft.com/en-us/azure/databricks/lakehouse/medallion](https://learn.microsoft.com/en-us/azure/databricks/lakehouse/medallion))를 따릅니다. 
+레이크하우스 기반의 데이터 분석 시스템(data analytics system)은 일반적으로 메달리온 아키텍처(Medallion architecture)([https://learn.microsoft.com/en-us/azure/databricks/lakehouse/medallion](https://learn.microsoft.com/en-us/azure/databricks/lakehouse/medallion), [WHAT IS - 메달리온 아키텍쳐 소개](../../microsoft-fabric-whatis-sessions/What-is-medallion-architecture.md))를 따릅니다. 
 
 이 아키텍처는 브론즈(Bronze), 실버(Silver), 골드(Gold)라는 일련의 데이터 영역(data zones)을 정의하여, 각 단계에서 레이크하우스에 저장된 데이터의 품질을 나타내며, 엔터프라이즈 데이터 제품을 위한 단일 진실 공급원(single source of truth)을 구축하기 위해 다계층 접근 방식을 권장합니다.
 
