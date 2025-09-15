@@ -1,5 +1,20 @@
 Lab 3에서는 다음과 같은 내용들을 살펴봅니다.
 
+- [3.0 Microsoft Fabric의 Data Warehouse란?](#30-microsoft-fabric의-data-warehouse란)
+- [3.1 데이터 흐름](#31-데이터-흐름)
+    - [Ingestion](#ingestion)
+    - [Transform](#transform)
+    - [Analyze](#analyze)
+- [3.2 데이터 웨어하우스 만들기](#32-데이터-웨어하우스-만들기)
+- [3.3 테이블 생성](#33-테이블-생성)
+    - [3.3.1 stage 스키마에 테이블 생성](#331-stage-스키마에-테이블-생성)
+    - [3.3.2 dbo 스키마에 테이블 생성](#332-dbo-스키마에-테이블-생성)
+- [3.4 데이터 채우기](#34-데이터-채우기)
+    - [3.4.1 Data Factory 복사 작업을 이용한 데이터 채워넣기](#341-data-factory-복사-작업을-이용한-데이터-채워넣기)
+    - [3.4.2 T-SQL을 이용한 데이터 채워넣기](#342-t-sql을-이용한-데이터-채워넣기)
+- [3.5 데이터 변환](#35-데이터-변환)
+- [3.6 분석](#36-분석)
+
 # 3.0 Microsoft Fabric의 Data Warehouse란?
 데이터 분석은 lab2에서 살펴본 레이크 중심의 접근 방식으로 전환되고 있지만. 여전히 전통적인 데이터 웨어하우스(Data Warehouse)가 적합한 시나리오가 여전히 다수 존재합니다.
 
@@ -19,7 +34,6 @@ Lab 3에서는 다음과 같은 내용들을 살펴봅니다.
 데이터의 흐름은 다음과 같습니다.
 
 <img src="./images/onelake-medallion-datawarehouse-architecture-example.png" style="width:80%;" alt="create-silver-lakehouse">
-
 
 ## Ingestion
 해당 단계에서는 데이터 원본에 있는 3개의 테이블의 데이터를 가져오기 하게 됩니다. 

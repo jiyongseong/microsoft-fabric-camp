@@ -19,7 +19,7 @@ Lab 2 - Lakehouse
 
 5. [분석 단계](/microsoft-fabric-in-a-day/Lab2%20Microosft%20Fabric%20Lakehouse/Lab2%20Microosft%20Fabric%20Lakehouse5.md)
 
-[Lab 3 - Data Warehouse] - *To be updated...*
+[Lab 3 - Data Warehouse](/microsoft-fabric-in-a-day/Lab3%20Microsoft%20Fabric%20Data%20Warehouse/Lab3%20Microsoft%20Fabric%20Data%20Warehouse.md)
 
 [Lab 4 - RTA(Real-Time Analytics)] - *To be updated...*
 
