@@ -33,7 +33,7 @@ Microsoft Fabric의 [레이크하우스(lakehouse)](../../microsoft-fabric-whati
 
 이를 통해 다양한 도구와 프레임워크가 조직의 요구 사항 또는 개인의 선호에 따라 이러한 데이터를 처리하고 분석할 수 있습니다.
 
-레이크하우스(lakehouse)는 데이터 레이크(data lake)와 데이터 웨어하우스(data warehouse)의 장점을 결합하여, 기업 데이터의 중복성(duplicity)과 데이터 수집(ingesting), 변환(transforming), 공유(sharing) 과정에서 발생하는 문제를 제거할 수 있습니다.
+레이크하우스(lakehouse)는 데이터 레이크(data lak comme)와 데이터 웨어하우스(data warehouse)의 장점을 결합하여, 기업 데이터의 중복성(duplicity)과 데이터 수집(ingesting), 변환(transforming), 공유(sharing) 과정에서 발생하는 문제를 제거할 수 있습니다.
 
 수집된 데이터는 기본적으로 델타 레이크(Delta Lake) 형식([https://delta.io/](https://delta.io/))으로 레이크하우스에 저장되며, 테이블은 사용자 대신 메타스토어(metastore)에 자동으로 검색 및 등록되어 Microsoft Fabric 내 모든 엔진에서 원활하게 작업할 수 있도록 제공합니다.
 
