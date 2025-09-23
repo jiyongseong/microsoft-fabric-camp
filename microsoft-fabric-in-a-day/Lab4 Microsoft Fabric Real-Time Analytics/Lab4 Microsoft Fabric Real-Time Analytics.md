@@ -200,3 +200,133 @@ KQL 엔진은 해당 SQL 코드를 자동으로 KQL로 변환하여 실행하고
 지금까지 살펴본 쿼리들은 KQL과 이벤트 스트림으로 할 수 있는 작업의 극히 일부에 불과합니다. 지리 공간 분석, 윈도우 함수, 누락 데이터 추론, 그래프, 함수 등 수많은 분석이 가능합니다.
 지금까지 몇 개의 쿼리 탐색을 통하여 데이터셋에 대해 조금 알게 되었으니, 실시간 데이터셋을 사용해 Power BI 보고서를 만드는 방법에 대해서 살펴보도록 하겠습니다.
 
+# 4.6 보고서 만들기
+Fabric의 다른 기능들과 마찬가지로, 실시간 분석은 Power BI와 통합되어 놀라운 시각화와 실행 가능한 보고서를 생성할 수 있습니다. KQL 데이터베이스나 KQL 쿼리 집합에서 직접 Power BI 보고서 만들기를 시작할 수 있습니다. 이렇게 하면 자동으로 데이터셋이 생성되어 보고서를 빠르게 작성할 수 있습니다.
+
+이번 lab에서는 MSFT Fabric 포털을 통하여 보고서를 작성하지만, Power BI Desktop에서도 보고서 작성이 가능합니다.
+
+Hands on workspace 탐색창에서 **StockMarket KQL 데이터베이스** 클릭하여 엽니다.
+
+좌측 탐색기에서 **Tables > TB_StockMarket**을 클릭하고, 리본 메뉴에서 **Create Power BI Report**를 클릭합니다.
+
+<img src="./images/create-power-bi-report.png" style="width:80%;" alt="create-power-bi-report">
+
+## 4.6.1 제목 작성
+리본 메뉴에서 **텍스트 상자**를 클릭합니다.
+
+<img src="./images/text-box.png" style="width:80%;" alt="text-box">
+
+다음과 같이 텍스트 상자를 조정합니다.
+
+- 텍스트 입력: Stock Market – Bid Analysis
+- 글꼴 크기: 44로 변경
+- 텍스트를 가운데 정렬
+- 텍스트 상자의 크기를 조정하여 보고서 캔버스의 전체 너비를 차지하도록 설정
+- 텍스트 상자를 보고서 캔버스의 상단 가장자리로 이동
+
+<img src="./images/stock-market-bid-analysis.png" style="width:80%;" alt="stock-market-bid-analysis">
+
+## 4.6.2 레코드 수
+
+시각화 창에서 **카드** 시각화를 클릭합니다.
+
+<img src="./images/card.png" style="width:50%;" alt="card">
+
+
+다음과 같이 카드를 조정합니다.
+
+- 너비를 보고서 캔버스의 절반 정도로 조정하고, 캔버스의 왼쪽에 둡니다. 
+- 앞서 생성한 텍스트 상자 바로 아래로 카드를 이동시킵니다.
+- 데이터 창에서 symbol 필드 옆의 체크박스를 클릭합니다.
+
+   <img src="./images/card-symbol.png" style="width:80%;" alt="card-symbol">
+
+
+- 시각화 창에서 필드 섹션에 있는 symbol 필드를 찾습니다. 필드 오른쪽의 드롭다운을 클릭하고 **개수**를 선택하여 테이블의 레코드 수가 표시되도록 변경합니다.
+
+   <img src="./images/card-symbol-count.png" style="width:80%;" alt="card-symbol-count">
+
+## 4.6.3 최신 업데이트 시각
+
+보고서 캔버스의 빈 영역을 클립합니다.
+
+- 다시 한 번 시각화 창에서 **카드** 시각화를 선택합니다.
+
+   <img src="./images/card.png" style="width:50%;" alt="card">
+
+- 카드의 크기를 조정하고 위치를 변경하여, 방금 만든 symbol 레코드 수 카드의 오른쪽으로 옮깁니다.
+- 데이터 창에서 **lastUpdated 필드** 옆의 체크박스를 선택합니다.
+- 시각화 창에서 lastUpdated 필드 오른쪽의 드롭다운을 클릭하고, 집계를 **가장 늦은 날짜**로 변경하여 카드에 가장 최근 레코드 업데이트 날짜가 표시되도록 합니다.
+
+   <img src="./images/card-lastupdated-latest.png" style="width:80%;" alt="card-lastupdated-latest">
+
+## 4.6.3 챠트 - sum of bidSize(last 5 minutes)
+
+보고서 캔버스의 빈 영역을 클릭합니다.
+
+- 시각화 창에서 **꺽은선형 차트**를 클릭합니다.
+   <img src="./images/chart.png" style="width:50%;" alt="chart">
+
+다음과 같이 꺾은선형 차트를 설정합니다.
+
+- 시각화의 크기를 조정하고 위치를 변경하여 보고서 캔버스 왼쪽 절반의 남은 빈 공간을 차지하도록 합니다. 
+- 데이터 창에서 **bidSize 옆의 체크박스**를 선택하여 Y축에 추가합니다. 
+- 데이터 창에서 **lastUpdated 옆의 체크박스**를 선택하여 X축에 추가합니다. 
+- 데이터 창에서 **symbol 옆의 체크박스**를 선택하여 범례에 추가합니다. 
+- 필터 창에서 이 시각화의 필터 섹션에 있는 **lastUpdated 필드**를 확장합니다. 
+- 필터 유형을 기본 필터링에서 **상대 시간**으로 변경합니다. 
+- 값이 최근에 있는 경우 항목 표시 설정 아래의 입력란에 **5**를 입력합니다. 
+- 시간 설정을 **분**으로 변경합니다.
+- **필터 적용**을 클릭합니다.
+
+   <img src="./images/chart-configuration.png" style="width:100%;" alt="chart-configuration">
+
+## 4.6.4 챠트 - average of bidSize (last 5 minutes)
+
+보고서 캔버스의 빈 영역을 클릭합니다.
+
+- 시각화(Visualizations) 창에서 **꺽은선형 차트**를 클릭합니다.
+   <img src="./images/chart.png" style="width:50%;" alt="chart">
+
+- 시각화의 크기와 위치를 조정하여 보고서 캔버스의 남은 빈 공간을 차지하도록 합니다.
+- 데이터 창에서 **lastUpdated 옆의 체크박스**를 선택하여 X축에 추가합니다.
+- 데이터 창에서 **bidPrice 옆의 체크박스**를 선택하여 Y축에 추가합니다.
+- 시각화 창에서 **합계 bidPrice개** 필드를 찾아 필드 이름 오른쪽의 드롭다운을 클릭하고, 집계를 **평균** 으로 변경합니다.
+
+   <img src="./images/chart-configuration-xy.png" style="width:100%;" alt="chart-configuration-xy">
+
+- bidSize 꺽은선형 차트에서 사용한 동일한 날짜 필터를 적용합니다. 이를 위해 필터 창에서 lastUpdated 필드를 찾고, 필터 유형을 상대 시간으로 변경하여 최근 5분의 값을 표시하도록 설정한 후, 필터 적용을 클릭합니다.
+
+   <img src="./images/chart-configuration-time.png" style="width:80%;" alt="chart-configuration-time">
+
+## 4.6.5 새로 고침 구성
+
+보고서 캔버스의 빈 영역을 클릭합니다.
+
+- 시각화 창에서 **보고서 페이지 서식 지정** 페이지로 전환합니다.
+
+   <img src="./images/report-format.png" style="width:50%;" alt="report-format">
+
+- **페이지 새로 고침** 설정을 켜기로 전환합니다.
+- 페이지 새로 고침 설정을 확장하고, **새로 고침 간격**을 **10초**로 설정합니다.
+
+   <img src="./images/report-refresh.png" style="width:50%;" alt="report-refresh">
+
+## 4.6.6 보고서 저장
+
+상단 리본 메뉴에서 **파일 > 저장**을 누르고, 
+
+- 파일 이름에는 "Bid Analysis Real-time"를 입력하고, 
+- 작업 영역은 "Hands on workspace"를 선택하고
+
+**계속** 버튼을 클릭합니다.
+
+<img src="./images/save-pbi-report.png" style="width:80%;" alt="save-pbi-report">
+
+저장이 완료되면 다음과 같은 화면이 보여지게 됩니다.
+
+<img src="./images/saved.png" style="width:80%;" alt="saved">
+
+**Power BI에서 파일을 열어 공유 가능한 링크를 보고 편집하고 가져옵니다.** 링크를 클릭하여 보고서 파일을 엽니다.
+
+<img src="./images/report.png" style="width:80%;" alt="report">
