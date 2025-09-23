@@ -52,8 +52,7 @@ Data Factory copy activity와 T-SQL을 이용하여 데이터를 가져오기 �
 - 수집 시 : 데이터 레이크가 없이 데이터가 바로 데이터 웨어하우스로 들어오면서 일부 변환이 필요한 경우에는 **Dataflow Gen2**를 이용하여 데이터 변환을 수행
 
 ## Analyze
-Lab3에서도 분석 단계는 Power BI와 SQL endpoint를 이용하게 됩니다.
-Power BI에서는 Direct Lake 모드(Direct Lake mode)를 이용하여 **데이터 모델 새로 고침** 방법에 대해서 살펴봅니다.
+Lab3에서도 분석 단계는 Power BI를 이용하게 됩니다.
 
 # 3.2 데이터 웨어하우스 만들기
 Microsoft Fabric 포털에서 좌측 메뉴에서 **작업 영역**을 클릭하고, 화면에서 앞서 생성한 **Hands on workspace**를 선택합니다.

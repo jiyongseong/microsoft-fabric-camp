@@ -21,7 +21,7 @@ Lab 2 - Lakehouse
 
 [Lab 3 - Data Warehouse](/microsoft-fabric-in-a-day/Lab3%20Microsoft%20Fabric%20Data%20Warehouse/Lab3%20Microsoft%20Fabric%20Data%20Warehouse.md)
 
-[Lab 4 - RTA(Real-Time Analytics)] - *To be updated...*
+[Lab 4 - RTA(Real-Time Analytics)](/microsoft-fabric-in-a-day/Lab4%20Microsoft%20Fabric%20Real-Time%20Analytics/Lab4%20Microsoft%20Fabric%20Real-Time%20Analytics.md) 
 
 ## Microsoft Fabric Security hands-on labs
 Microsoft Fabric의 보안 기능에 대한 hands-on lab입니다.
