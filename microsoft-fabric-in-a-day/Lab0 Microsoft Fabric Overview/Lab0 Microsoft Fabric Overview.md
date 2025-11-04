@@ -2,7 +2,7 @@
 Lab 0에서는 다음과 같은 내용들을 살펴봅니다.
 
 - [0.0 Microsoft Fabric Overview](#00-microsoft-fabric-overview)
-- [0.1 Complete Analytics Plaform](#01-complete-analytics-plaform)
+- [0.1 Complete Analytics Platform](#01-complete-analytics-plaform)
     - [0.1.0 Everything, unified](#010-everything-unified)
     - [0.1.1 SaaS](#011-saas)
     - [0.1.2 Persona optimzed experiences](#012-persona-optimzed-experiences)
@@ -30,7 +30,7 @@ Fabric은 SaaS 제품으로, 제공하는 핵심 기능을 통상 4개로 나누
 
 <img src="./images//microsoft-fabric-core-capability-pillars.png" style="width:70%;" alt="microsoft fabric core capability pillars">
 
-## 0.1 Complete Analytics Plaform
+## 0.1 Complete Analytics Platform
 
 Microsoft Fabric은 데이터 통합, 저장, 처리, 분석, 시각화까지 모든 분석 기능을 하나의 플랫폼에서 제공합니다.
 
