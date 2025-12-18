@@ -1,5 +1,6 @@
 # Microsoft Fabric in a Day hands-on labs
 Microsoft Fabric의 기초를 학습하기 위한 hands-on lab입니다.
+
 Microsoft Fabric은 SaaS platform으로 끊임없이 진화하고 있습니다. 때문에, 해당 lab에서 캡쳐된 화면과 현재의 화면이 다를 수 있습니다.
 
 [Lab 0 - Microsoft Fabric Overview](/microsoft-fabric-in-a-day/Lab0%20Microsoft%20Fabric%20Overview/Lab0%20Microsoft%20Fabric%20Overview.md)
