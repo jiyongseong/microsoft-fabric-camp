@@ -58,7 +58,7 @@ gold_lakehouse 레이크하우스 탐색기의 상단 메뉴에서 **노트북 �
 
 <img src="./images/save-notebook-gold.png" style="width:50%;" alt="save-notebook-gold">
 
-새 노트북 이름에 "Migration from Bronze to Silver"라고 입력하고. **저장** 버튼을 클릭합니다.
+새 노트북 이름에 "Migration from Silver to Gold"라고 입력하고. **저장** 버튼을 클릭합니다.
 
 <img src="./images/notebook-name-gold.png" style="width:50%;" alt="notebook-name-gold">
 
