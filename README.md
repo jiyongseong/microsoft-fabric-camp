@@ -26,14 +26,13 @@ Microsoft Fabric의 핵심 구성 요소와 아키텍처를 **실습 중심 (Han
 - 기본적인 데이터 분석 개념 이해
 
 ## 🤝 기여 방법
-Pull Request, Issue 등록을 환영합니다.
+프로젝트에 대한 제안이나 수정 사항은 Issue 또는 Pull Request를 통해 언제든지 환영합니다.
 
 ## 📜 License
-이 리포지토리는 GPL-3.0 License 하에 배포됩니다.
+이 리포지토리는 GPL-3.0 License 하에 배포됩니다. 
 
 ## ✨ Maintainers
 Ji Yong Seong (MSFT)
-Contributors welcome!!!! 🚀
 
 # 설명
 ## Microsoft Fabric in a Day hands-on labs
