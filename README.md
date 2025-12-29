@@ -1,6 +1,41 @@
 # Microsoft Fabric camp
-Microsoft Fabric hands-on lab을 위한 repository입니다.
+이 저장소는 **Microsoft Fabric Hands-on Labs** 제공을 목적으로 하는 교육용 저장소입니다.  
+Microsoft Fabric의 핵심 구성 요소와 아키텍처를 **실습 중심 (Hands-on)** 으로 학습할 수 있도록 설계되었습니다.
+데이터 수집부터 변환, 분석, 그리고 시각화까지 Microsoft Fabric의 통합 플랫폼 기능을 직접 체험해 볼 수 있습니다.
 
+> ✅ Microsoft Fabric은 SaaS 기반 플랫폼으로 지속적으로 업데이트되고 있으므로  
+> 실습 화면 및 UI는 현재 포털과 일부 차이가 있을 수 있습니다.
+
+
+## 🎯 목표 
+- Microsoft Fabric의 전체 아키텍처 이해
+- Lakehouse, Data Warehouse, Real-Time Analytics 핵심 개념 학습
+- 엔터프라이즈 데이터 분석 시나리오를 실습으로 경험
+- Security 및 Governance 기본 구조 이해
+
+## 👥 대상 독자
+- Microsoft Fabric 처음 접하는 사용자
+- Power BI / Synapse / Azure Data Analytics 경험자
+- 데이터 엔지니어, 데이터 분석가, 솔루션 아키텍트
+- 고객 워크샵, Fabric Camp, 내부 교육 진행자
+
+## 🧩 사전 준비 사항
+- Microsoft Fabric 활성화된 Tenant
+- Fabric Capacity (F SKU) 또는 Trial
+- Fabric Workspace 생성 권한
+- 기본적인 데이터 분석 개념 이해
+
+## 🤝 기여 방법
+Pull Request, Issue 등록을 환영합니다.
+
+## 📜 License
+이 리포지토리는 GPL-3.0 License 하에 배포됩니다.
+
+## ✨ Maintainers
+Ji Yong Seong (MSFT)
+Contributors welcome!!!! 🚀
+
+# 설명
 ## Microsoft Fabric in a Day hands-on labs
 Microsoft Fabric의 기초를 학습하기 위한 hands-on lab입니다.
 
