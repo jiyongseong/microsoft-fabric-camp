@@ -26,15 +26,62 @@ Lab 2 - Lakehouse
 ## Microsoft Fabric Security hands-on labs
 Microsoft Fabric의 보안 기능에 대한 hands-on lab입니다.
 
-[Lab 0] Microsoft Fabric Security Overview - *To be updated...*
 
-[Lab 1] Network Security - *To be updated...*
 
-[Lab 2] Workspace & item security - *To be updated...*
-
-[Lab 3] Microsoft Purview - *To be updated...*
-
-## Microsoft Fabric deep dives Hands-on labs by feature
+## Microsoft Fabric Hands-on labs by feature
 Microsoft Fabric에서 제공되는 각 기능별 hands-on lab입니다.
 
-*To be updated...*
+*Work in progress; update to follow...*
+
+### Data Factory
+- [Overview]
+- [Data Pipelines]
+- [Connectors]
+- [Copy Job]
+- [Apache Airflow]
+- [Dataflow]
+- [Fast Copy]
+- [Copilot Data Factory]
+- [Zero copy, Zero ETL approach(Mirroring, Open mirroring, Shortcuts)]
+
+### Real Time Intelligence
+- [Real Time Hub]
+- [Activator]
+
+### Databases
+- [Simpliofied]
+- [Autonomous]
+- [Optimized for AI]
+
+### Data Engineering
+- [Lakehouse - overview]
+- [Spark Runtime]
+- [Notebook]
+
+### Data Warehouse
+- [Data Warehouse - overview]
+- [Autonomous]
+- [Monitoring]
+
+### Data Science
+- [End-to-end worklflows]
+- [AI functions]
+- [MLFlow]
+- [Model scoring]
+- [Explore, clean & prepare]
+- [Data Wrangler]
+
+### Power BI
+- [Direct Lake mode]
+- [Semantic model]
+- [Copilot for Power BI]
+
+### Copilot & AI in Microsoft Fabric
+### OneLake
+### Security, Governance & Admin
+- [Microsoft Fabric Security Overview]
+- [Network Security]
+- [Workspace & item security]
+- [Microsoft Purview]
+
+### License
