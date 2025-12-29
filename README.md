@@ -6,7 +6,6 @@ Microsoft Fabric의 핵심 구성 요소와 아키텍처를 **실습 중심 (Han
 > ✅ Microsoft Fabric은 SaaS 기반 플랫폼으로 지속적으로 업데이트되고 있으므로  
 > 실습 화면 및 UI는 현재 포털과 일부 차이가 있을 수 있습니다.
 
-
 ## 🎯 목표 
 - Microsoft Fabric의 전체 아키텍처 이해
 - Lakehouse, Data Warehouse, Real-Time Analytics 핵심 개념 학습
@@ -34,7 +33,6 @@ Microsoft Fabric의 핵심 구성 요소와 아키텍처를 **실습 중심 (Han
 ## ✨ Maintainers
 Ji Yong Seong (MSFT)
 
-# 설명
 ## Microsoft Fabric in a Day hands-on labs
 Microsoft Fabric의 기초를 학습하기 위한 hands-on lab입니다.
 
