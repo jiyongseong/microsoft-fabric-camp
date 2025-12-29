@@ -33,7 +33,7 @@ Microsoft Fabric의 핵심 구성 요소와 아키텍처를 **실습 중심 (Han
 ## ✨ Maintainers
 Ji Yong Seong (MSFT)
 
-## Microsoft Fabric in a Day hands-on labs
+## 🛠️'Microsoft Fabric in a Day' hands-on lab
 Microsoft Fabric의 기초를 학습하기 위한 hands-on lab입니다.
 
 [Lab 0 - Microsoft Fabric Overview](/microsoft-fabric-in-a-day/Lab0%20Microsoft%20Fabric%20Overview/Lab0%20Microsoft%20Fabric%20Overview.md)
@@ -55,12 +55,12 @@ Lab 2 - Lakehouse
 
 [Lab 4 - RTA(Real-Time Analytics)](/microsoft-fabric-in-a-day/Lab4%20Microsoft%20Fabric%20Real-Time%20Analytics/Lab4%20Microsoft%20Fabric%20Real-Time%20Analytics.md) 
 
-## Microsoft Fabric Hands-on labs by feature
+## 🧪 Microsoft Fabric Hands-on lab by feature
 Microsoft Fabric에서 제공되는 각 기능별 hands-on lab입니다.
 
 *현재 작업 중에 있습니다*
 
-### Data Factory
+### 🏗️ Data Factory
 - [Overview]
 - [Data Pipelines]
 - [Connectors]
@@ -71,26 +71,26 @@ Microsoft Fabric에서 제공되는 각 기능별 hands-on lab입니다.
 - [Copilot Data Factory]
 - [Zero copy, Zero ETL approach(Mirroring, Open mirroring, Shortcuts)]
 
-### Real Time Intelligence
+### ⚡ Real Time Intelligence
 - [Real Time Hub]
 - [Activator]
 
-### Databases
+### 🗄️ Databases
 - [Simpliofied]
 - [Autonomous]
 - [Optimized for AI]
 
-### Data Engineering
+### 🏞️ Data Engineering
 - [Lakehouse - overview]
 - [Spark Runtime]
 - [Notebook]
 
-### Data Warehouse
+### 🏢 Data Warehouse
 - [Data Warehouse - overview]
 - [Autonomous]
 - [Monitoring]
 
-### Data Science
+### 📈 Data Science
 - [End-to-end worklflows]
 - [AI functions]
 - [MLFlow]
@@ -98,17 +98,17 @@ Microsoft Fabric에서 제공되는 각 기능별 hands-on lab입니다.
 - [Explore, clean & prepare]
 - [Data Wrangler]
 
-### Power BI
+### 📊 Power BI
 - [Direct Lake mode]
 - [Semantic model]
 - [Copilot for Power BI]
 
-### Copilot & AI in Microsoft Fabric
-### OneLake
-### Security, Governance & Admin
+### 🤖 Copilot & AI in Microsoft Fabric
+### 🌊 OneLake
+### 🔐 Security, Governance & Admin
 - [Microsoft Fabric Security Overview]
 - [Network Security]
 - [Workspace & item security]
 - [Microsoft Purview]
 
-### License
+### 📄 License
