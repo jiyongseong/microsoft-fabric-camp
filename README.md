@@ -34,9 +34,7 @@ Microsoft Fabric의 보안 기능에 대한 hands-on lab입니다.
 
 [Lab 3] Microsoft Purview - *To be updated...*
 
-## Microsoft Fabric Hands-on labs by feature
+## Microsoft Fabric deep dives Hands-on labs by feature
 Microsoft Fabric에서 제공되는 각 기능별 hands-on lab입니다.
 
-[Microsoft Fabric Copilot integration hands-on lab] - *To be updated...*
-
-[SQL Databae in Microsoft Fabric hands-on lab] - *To be updated...*
+*To be updated...*
