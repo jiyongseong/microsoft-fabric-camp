@@ -30,7 +30,7 @@ Microsoft Fabric의 핵심 구성 요소와 아키텍처를 **실습 중심 (Han
 ## 📜 License
 이 리포지토리는 GPL-3.0 License 하에 배포됩니다. 
 
-## ✨ Maintainers
+## ✨ Maintainer
 Ji Yong Seong (MSFT)
 
 ## 🛠️'Microsoft Fabric in a Day' hands-on lab
@@ -72,6 +72,7 @@ Microsoft Fabric에서 제공되는 각 기능별 hands-on lab입니다.
 - [Zero copy, Zero ETL approach(Mirroring, Open mirroring, Shortcuts)]
 
 ### ⚡ Real Time Intelligence
+- [Batch to Real time intelligence]
 - [Real Time Hub]
 - [Activator]
 
