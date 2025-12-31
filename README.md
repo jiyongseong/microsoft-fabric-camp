@@ -72,7 +72,7 @@ Microsoft Fabric에서 제공되는 각 기능별 hands-on lab입니다.
 - [Zero copy, Zero ETL approach(Mirroring, Open mirroring, Shortcuts)]
 
 ### ⚡ Real Time Intelligence
-- [Batch to Real time intelligence]
+- [Batch to Real time intelligence - Azure SQL Database]
 - [Real Time Hub]
 - [Activator]
 
