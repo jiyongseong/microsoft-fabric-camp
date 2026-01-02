@@ -124,4 +124,4 @@ Mictosoft Fabric 포털 왼쪽 메뉴에서 **Hands on workspace"를 클릭하�
 
 ## 다음
 
-[Lab2 Microosft Fabric Lakehouse - Overview](../Lab2%20Microosft%20Fabric%20Lakehouse/Lab2%20Microosft%20Fabric%20Lakehouse1.md) << Lab2 Microosft Fabric Lakehouse - 브론즈(Bronze) 단계 >> [Lab2 Microosft Fabric Lakehouse - 실버(Silver) 단계](../Lab2%20Microosft%20Fabric%20Lakehouse/Lab2%20Microosft%20Fabric%20Lakehouse3.md)
+[Lab2 Microsoft Fabric Lakehouse - Overview](../Lab2%20Microsoft%20Fabric%20Lakehouse/Lab2%20Microsoft%20Fabric%20Lakehouse1.md) << Lab2 Microsoft Fabric Lakehouse - 브론즈(Bronze) 단계 >> [Lab2 Microsoft Fabric Lakehouse - 실버(Silver) 단계](../Lab2%20Microsoft%20Fabric%20Lakehouse/Lab2%20Microsoft%20Fabric%20Lakehouse3.md)

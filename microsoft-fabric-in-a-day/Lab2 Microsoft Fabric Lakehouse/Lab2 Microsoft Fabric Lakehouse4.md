@@ -62,7 +62,7 @@ gold_lakehouse 레이크하우스 탐색기의 상단 메뉴에서 **노트북 �
 
 <img src="./images/notebook-name-gold.png" style="width:50%;" alt="notebook-name-gold">
 
-미리 만들어둔 notebook 파일은 [여기](../Lab2%20Microosft%20Fabric%20Lakehouse/resources/Migration%20from%20Silver%20to%20Gold.ipynb)에서 다운로드 할 수 있습니다.
+미리 만들어둔 notebook 파일은 [여기](../Lab2%20Microsoft%20Fabric%20Lakehouse/resources/Migration%20from%20Silver%20to%20Gold.ipynb)에서 다운로드 할 수 있습니다.
 
 ## 2.5.4 비지니스 집계 테이블 생성
 레이크하우스의 집계 작업은 PySpark 또는 Spark SQL을 이용하여 작업이 가능합니다.
@@ -199,4 +199,4 @@ FROM aggregate_sale_by_date_employee;
 
 ## 다음
 
-[Lab2 Microosft Fabric Lakehouse - 실버(Silver)](Lab2%20Microosft%20Fabric%20Lakehouse3.md) 단계 << Lab2 Microosft Fabric Lakehouse - 골드(Gold) 단계 >> [Lab2 Microosft Fabric Lakehouse - 분석 단계](Lab2%20Microosft%20Fabric%20Lakehouse5.md)
+[Lab2 Microsoft Fabric Lakehouse - 실버(Silver)](Lab2%20Microsoft%20Fabric%20Lakehouse3.md) 단계 << Lab2 Microsoft Fabric Lakehouse - 골드(Gold) 단계 >> [Lab2 Microsoft Fabric Lakehouse - 분석 단계](Lab2%20Microsoft%20Fabric%20Lakehouse5.md)

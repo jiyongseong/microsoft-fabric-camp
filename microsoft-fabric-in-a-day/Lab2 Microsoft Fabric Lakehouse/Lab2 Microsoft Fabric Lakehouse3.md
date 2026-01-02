@@ -65,7 +65,7 @@ silver_lakehouse 레이크하우스 탐색기의 상단 메뉴에서 **노트북
 <img src="./images/notebook-name.png" style="width:50%;" alt="notebook-name">
 
 
-미리 만들어둔 notebook 파일은 [여기](../Lab2%20Microosft%20Fabric%20Lakehouse/resources/Migration%20from%20Bronze%20to%20Silver.ipynb)에서 다운로드 할 수 있습니다.
+미리 만들어둔 notebook 파일은 [여기](../Lab2%20Microsoft%20Fabric%20Lakehouse/resources/Migration%20from%20Bronze%20to%20Silver.ipynb)에서 다운로드 할 수 있습니다.
 
 ## 2.4.4 데이터 변환 - 차원(dimension) 테이블
 
@@ -335,4 +335,4 @@ ORDER BY Year, Quarter, Month;
 
 ## 다음
 
-[Lab2 Microosft Fabric Lakehouse - 브론즈(Bronze) 단계](Lab2%20Microosft%20Fabric%20Lakehouse2.md) << Lab2 Microosft Fabric Lakehouse - 실버(Silver) 단계 >> [Lab2 Microosft Fabric Lakehouse - 골드(Gold) 단계](Lab2%20Microosft%20Fabric%20Lakehouse4.md)
+[Lab2 Microsoft Fabric Lakehouse - 브론즈(Bronze) 단계](Lab2%20Microsoft%20Fabric%20Lakehouse2.md) << Lab2 Microsoft Fabric Lakehouse - 실버(Silver) 단계 >> [Lab2 Microsoft Fabric Lakehouse - 골드(Gold) 단계](Lab2%20Microsoft%20Fabric%20Lakehouse4.md)
