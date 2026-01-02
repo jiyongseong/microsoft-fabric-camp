@@ -113,4 +113,4 @@ Fabric capacity 화면에서 다음의 정보를 입력합니다.
 
 ## 다음
 
-[Lab0 Microsoft Fabric Overview](/microsoft-fabric-in-a-day/Lab0%20Microsoft%20Fabric%20Overview/Lab0%20Microsoft%20Fabric%20Overview.md) << Lab1 Microsoft Fabric Getting Started >> [Lab2 Microosft Fabric Lakehouse - Overview](../Lab2%20Microosft%20Fabric%20Lakehouse/Lab2%20Microosft%20Fabric%20Lakehouse1.md)
+[Lab0 Microsoft Fabric Overview](/microsoft-fabric-in-a-day/Lab0%20Microsoft%20Fabric%20Overview/Lab0%20Microsoft%20Fabric%20Overview.md) << Lab1 Microsoft Fabric Getting Started >> [Lab2 Microsoft Fabric Lakehouse - Overview](../Lab2%20Microsoft%20Fabric%20Lakehouse/Lab2%20Microsoft%20Fabric%20Lakehouse1.md)

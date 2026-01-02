@@ -62,7 +62,7 @@ gold_lakehouse 레이크하우스 탐색기의 상단 메뉴에서 **노트북 �
 
 <img src="./images/notebook-name-gold.png" style="width:50%;" alt="notebook-name-gold">
 
-미리 만들어둔 notebook 파일은 [여기](../Lab2%20Microosft%20Fabric%20Lakehouse/resources/Migration%20from%20Silver%20to%20Gold.ipynb)에서 다운로드 할 수 있습니다.
+미리 만들어둔 notebook 파일은 [여기](../Lab2%20Microsoft%20Fabric%20Lakehouse/resources/Migration%20from%20Silver%20to%20Gold.ipynb)에서 다운로드 할 수 있습니다.
 
 ## 2.5.4 비지니스 집계 테이블 생성
 레이크하우스의 집계 작업은 PySpark 또는 Spark SQL을 이용하여 작업이 가능합니다.
@@ -74,9 +74,9 @@ gold_lakehouse 레이크하우스 탐색기의 상단 메뉴에서 **노트북 �
 ```python
 #팩트 테이블(fact_sale), 차원 테이블(dimension_date, dimension_city)에 대한 참조를 생성
 
-df_fact_sale = spark.read.table("gold_lakehouse.fact_sale") 
-df_dimension_date = spark.read.table("gold_lakehouse.dimension_date")
-df_dimension_city = spark.read.table("gold_lakehouse.dimension_city")
+df_fact_sale = spark.read.table("fact_sale") 
+df_dimension_date = spark.read.table("dimension_date")
+df_dimension_city = spark.read.table("dimension_city")
 ```
 
 해당 코드는 팩트 테이블(fact_sale), 차원 테이블(dimension_date, dimension_city)에 대한 참조를 생성합니다.
@@ -116,7 +116,7 @@ sale_by_date_city = df_fact_sale.alias("sale") \
 .withColumnRenamed("sum(Profit)", "SumOfProfit")\
 .orderBy("date.Date", "city.StateProvince", "city.City")
 
-sale_by_date_city.write.mode("overwrite").format("delta").option("overwriteSchema", "true").save("Tables/aggregate_sale_by_date_city")
+sale_by_date_city.write.mode("overwrite").format("delta").option("overwriteSchema", "true").saveAsTable("aggregate_sale_by_date_city")
 ```
 
 셀 좌측에 있는 **셀 실행** 버튼을 클릭하여, 붙여넣기한 코드를 실행합니다.
@@ -161,9 +161,9 @@ SELECT
 	,SUM(FS.TaxAmount) SumOfTaxAmount
 	,SUM(FS.TotalIncludingTax) SumOfTotalIncludingTax
 	,SUM(Profit) SumOfProfit 
-FROM gold_lakehouse.fact_sale FS
-INNER JOIN gold_lakehouse.dimension_date DD ON FS.InvoiceDateKey = DD.Date
-INNER JOIN gold_lakehouse.dimension_Employee DE ON FS.SalespersonKey = DE.EmployeeKey
+FROM fact_sale FS
+INNER JOIN dimension_date DD ON FS.InvoiceDateKey = DD.Date
+INNER JOIN dimension_Employee DE ON FS.SalespersonKey = DE.EmployeeKey
 GROUP BY DD.Date, DD.CalendarMonthLabel, DD.Day, DD.ShortMonth, DD.CalendarYear, DE.PreferredName, DE.Employee
 ORDER BY DD.Date ASC, DE.PreferredName ASC, DE.Employee ASC
 ```
@@ -176,7 +176,7 @@ ORDER BY DD.Date ASC, DE.PreferredName ASC, DE.Employee ASC
 
 ```python
 sale_by_date_employee = spark.sql("SELECT * FROM sale_by_date_employee")
-sale_by_date_employee.write.mode("overwrite").format("delta").option("overwriteSchema", "true").save("Tables/aggregate_sale_by_date_employee")
+sale_by_date_employee.write.mode("overwrite").format("delta").option("overwriteSchema", "true").saveAsTable("aggregate_sale_by_date_employee")
 ```
 
 좌측의 탐색기에서 **Tables > 점 3개(...) > 새로 고침** 메뉴를 클릭하고, **aggregate_sale_by_date_employee** 테이블이 정상적으로 생성되었는지 확인합니다.
@@ -199,4 +199,4 @@ FROM aggregate_sale_by_date_employee;
 
 ## 다음
 
-[Lab2 Microosft Fabric Lakehouse - 실버(Silver)](Lab2%20Microosft%20Fabric%20Lakehouse3.md) 단계 << Lab2 Microosft Fabric Lakehouse - 골드(Gold) 단계 >> [Lab2 Microosft Fabric Lakehouse - 분석 단계](Lab2%20Microosft%20Fabric%20Lakehouse5.md)
+[Lab2 Microsoft Fabric Lakehouse - 실버(Silver)](Lab2%20Microsoft%20Fabric%20Lakehouse3.md) 단계 << Lab2 Microsoft Fabric Lakehouse - 골드(Gold) 단계 >> [Lab2 Microsoft Fabric Lakehouse - 분석 단계](Lab2%20Microsoft%20Fabric%20Lakehouse5.md)

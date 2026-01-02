@@ -32,7 +32,7 @@ Lab 4에서는 다음과 같은 내용들을 살펴봅니다.
 
 Microsoft Fabric 포털에서 좌측 메뉴에서 **작업 영역**을 클릭하고, 화면에서 앞서 생성한 **Hands on workspace**를 선택합니다.
 
-<img src="../Lab2 Microosft Fabric Lakehouse/images/handson-workspace.png" style="width:50%;" alt="handson-workspace">
+<img src="../Lab2 Microsoft Fabric Lakehouse/images/handson-workspace.png" style="width:50%;" alt="handson-workspace">
 
 작업 영역 화면에서, 좌측 상단에 있는 **+ 새 항목** 버튼을 클릭하여, **새 항목 > 데이터 저장 > Eventhouse**를 클릭합니다.
 
