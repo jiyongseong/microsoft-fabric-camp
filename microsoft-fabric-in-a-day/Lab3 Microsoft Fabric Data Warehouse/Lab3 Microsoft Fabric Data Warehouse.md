@@ -59,7 +59,7 @@ Microsoft Fabric 포털에서 좌측 메뉴에서 **작업 영역**을 클릭하
 
 <img src="../Lab2 Microsoft Fabric Lakehouse/images/handson-workspace.png" style="width:50%;" alt="handson-workspace">
 
-작업 영역 화면에서, 좌측 상단에 있는 **+ 새 항목** 버튼을 클릭하여, **새 항목 > 데이터 저장 > 레이크하우스**를 클릭합니다.
+작업 영역 화면에서, 좌측 상단에 있는 **+ 새 항목** 버튼을 클릭하여, **새 항목 > 데이터 저장 > Warehouse**를 클릭합니다.
 
 <img src="./images/create-warehouse.png" style="width:80%;" alt="create-warehouse">
 
