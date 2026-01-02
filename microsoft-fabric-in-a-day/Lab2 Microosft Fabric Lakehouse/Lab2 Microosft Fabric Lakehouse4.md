@@ -161,9 +161,9 @@ SELECT
 	,SUM(FS.TaxAmount) SumOfTaxAmount
 	,SUM(FS.TotalIncludingTax) SumOfTotalIncludingTax
 	,SUM(Profit) SumOfProfit 
-FROM gold_lakehouse.fact_sale FS
-INNER JOIN gold_lakehouse.dimension_date DD ON FS.InvoiceDateKey = DD.Date
-INNER JOIN gold_lakehouse.dimension_Employee DE ON FS.SalespersonKey = DE.EmployeeKey
+FROM fact_sale FS
+INNER JOIN dimension_date DD ON FS.InvoiceDateKey = DD.Date
+INNER JOIN dimension_Employee DE ON FS.SalespersonKey = DE.EmployeeKey
 GROUP BY DD.Date, DD.CalendarMonthLabel, DD.Day, DD.ShortMonth, DD.CalendarYear, DE.PreferredName, DE.Employee
 ORDER BY DD.Date ASC, DE.PreferredName ASC, DE.Employee ASC
 ```
