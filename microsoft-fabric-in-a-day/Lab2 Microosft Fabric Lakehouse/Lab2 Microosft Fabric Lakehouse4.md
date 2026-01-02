@@ -74,9 +74,9 @@ gold_lakehouse 레이크하우스 탐색기의 상단 메뉴에서 **노트북 �
 ```python
 #팩트 테이블(fact_sale), 차원 테이블(dimension_date, dimension_city)에 대한 참조를 생성
 
-df_fact_sale = spark.read.table("gold_lakehouse.fact_sale") 
-df_dimension_date = spark.read.table("gold_lakehouse.dimension_date")
-df_dimension_city = spark.read.table("gold_lakehouse.dimension_city")
+df_fact_sale = spark.read.table("fact_sale") 
+df_dimension_date = spark.read.table("dimension_date")
+df_dimension_city = spark.read.table("dimension_city")
 ```
 
 해당 코드는 팩트 테이블(fact_sale), 차원 테이블(dimension_date, dimension_city)에 대한 참조를 생성합니다.
