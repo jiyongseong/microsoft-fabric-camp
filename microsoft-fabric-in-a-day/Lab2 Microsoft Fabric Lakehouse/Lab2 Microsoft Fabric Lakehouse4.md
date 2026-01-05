@@ -116,7 +116,7 @@ sale_by_date_city = df_fact_sale.alias("sale") \
 .withColumnRenamed("sum(Profit)", "SumOfProfit")\
 .orderBy("date.Date", "city.StateProvince", "city.City")
 
-sale_by_date_city.write.mode("overwrite").format("delta").option("overwriteSchema", "true").saveAsTable("aggregate_sale_by_date_city")
+sale_by_date_city.write.mode("overwrite").format("delta").option("overwriteSchema", "true").save("Tables/aggregate_sale_by_date_city")
 ```
 
 셀 좌측에 있는 **셀 실행** 버튼을 클릭하여, 붙여넣기한 코드를 실행합니다.
@@ -176,7 +176,7 @@ ORDER BY DD.Date ASC, DE.PreferredName ASC, DE.Employee ASC
 
 ```python
 sale_by_date_employee = spark.sql("SELECT * FROM sale_by_date_employee")
-sale_by_date_employee.write.mode("overwrite").format("delta").option("overwriteSchema", "true").saveAsTable("aggregate_sale_by_date_employee")
+sale_by_date_employee.write.mode("overwrite").format("delta").option("overwriteSchema", "true").save("Tables/aggregate_sale_by_date_employee")
 ```
 
 좌측의 탐색기에서 **Tables > 점 3개(...) > 새로 고침** 메뉴를 클릭하고, **aggregate_sale_by_date_employee** 테이블이 정상적으로 생성되었는지 확인합니다.
