@@ -32,7 +32,7 @@ Lab 4에서는 다음과 같은 내용들을 살펴봅니다.
 
 Microsoft Fabric 포털에서 좌측 메뉴에서 **작업 영역**을 클릭하고, 화면에서 앞서 생성한 **Hands on workspace**를 선택합니다.
 
-<img src="../Lab2 Microosft Fabric Lakehouse/images/handson-workspace.png" style="width:50%;" alt="handson-workspace">
+<img src="../Lab2 Microsoft Fabric Lakehouse/images/handson-workspace.png" style="width:50%;" alt="handson-workspace">
 
 작업 영역 화면에서, 좌측 상단에 있는 **+ 새 항목** 버튼을 클릭하여, **새 항목 > 데이터 저장 > Eventhouse**를 클릭합니다.
 
@@ -47,7 +47,7 @@ Microsoft Fabric 포털에서 좌측 메뉴에서 **작업 영역**을 클릭하
 <img src="./images/kql-database.png" style="width:80%;" alt="kql-database">
 
 해당 데이터베이스를 클릭하면 데이터베이스의 세부 정보가 보여집니다.
-화면 우측의 Database details(데이터베이스 세부 정ㅂ)) 섹션에서 OneLake 사용 가능(Availability) 옵션 옆에 있는 토글 버튼을 enabled로 변경합니다.
+화면 우측의 Database details(데이터베이스 세부 정보)) 섹션에서 OneLake 사용 가능(Availability) 옵션 옆에 있는 토글 버튼을 enabled로 변경합니다.
 
 <img src="./images/onelake-availability.png" style="width:80%;" alt="onelake-availability">
 

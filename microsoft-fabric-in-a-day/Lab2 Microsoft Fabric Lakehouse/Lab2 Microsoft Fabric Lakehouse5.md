@@ -142,4 +142,4 @@ Microsoft Fabric은 기본 제공 기능을 통해 레이크하우스를 기반�
 
 ## 다음
 
-[Lab2 Microosft Fabric Lakehouse - 골드(Gold) 단계](Lab2%20Microosft%20Fabric%20Lakehouse4.md) << Lab2 Microosft Fabric Lakehouse - 분석 단계
+[Lab2 Microsoft Fabric Lakehouse - 골드(Gold) 단계](Lab2%20Microsoft%20Fabric%20Lakehouse4.md) << Lab2 Microsoft Fabric Lakehouse - 분석 단계

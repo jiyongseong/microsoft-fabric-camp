@@ -29,7 +29,7 @@ Lab 3에서는 다음과 같은 내용들을 살펴봅니다.
 # 3.1 데이터 흐름
 이번 lab3에서는 **데이터 수집(Ingestion)**, **변환(Transformation)**, **보고(Reporting)**를 포함하는 솔루션을 구축하면서 **Fabric 데이터 웨어하우스의 핵심 기능**에 대해서 살펴봅니다.
 
-이번 lab에서는 Wide World Importers(WWI) 예제 데이터베이스를 사용합니다. 데이터 모델에 대한 자세한 설명은 [여기](../Lab2%20Microosft%20Fabric%20Lakehouse/Lab2%20Microosft%20Fabric%20Lakehouse1.md#22-예제-데이터-개요)를 참고하시기 바랍니다.
+이번 lab에서는 Wide World Importers(WWI) 예제 데이터베이스를 사용합니다. 데이터 모델에 대한 자세한 설명은 [여기](../Lab2%20Microsoft%20Fabric%20Lakehouse/Lab2%20Microsoft%20Fabric%20Lakehouse1.md#22-예제-데이터-개요)를 참고하시기 바랍니다.
 
 데이터의 흐름은 다음과 같습니다.
 
@@ -57,9 +57,9 @@ Lab3에서도 분석 단계는 Power BI를 이용하게 됩니다.
 # 3.2 데이터 웨어하우스 만들기
 Microsoft Fabric 포털에서 좌측 메뉴에서 **작업 영역**을 클릭하고, 화면에서 앞서 생성한 **Hands on workspace**를 선택합니다.
 
-<img src="../Lab2 Microosft Fabric Lakehouse/images/handson-workspace.png" style="width:50%;" alt="handson-workspace">
+<img src="../Lab2 Microsoft Fabric Lakehouse/images/handson-workspace.png" style="width:50%;" alt="handson-workspace">
 
-작업 영역 화면에서, 좌측 상단에 있는 **+ 새 항목** 버튼을 클릭하여, **새 항목 > 데이터 저장 > 레이크하우스**를 클릭합니다.
+작업 영역 화면에서, 좌측 상단에 있는 **+ 새 항목** 버튼을 클릭하여, **새 항목 > 데이터 저장 > Warehouse**를 클릭합니다.
 
 <img src="./images/create-warehouse.png" style="width:80%;" alt="create-warehouse">
 
