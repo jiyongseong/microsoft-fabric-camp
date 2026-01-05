@@ -96,7 +96,7 @@ dimension_city_schema = StructType([
     StructField('LineageKey', IntegerType(), True)])
 
 df = spark.read.format("csv").schema(dimension_city_schema).option("header","true").load('Files/full/' + table_name)
-df.write.mode("overwrite").format("delta").saveAsTable(table_name)
+df.write.mode("overwrite").format("delta").save("Tables/" + table_name)
 ```
 
 <img src="./images/notebook-cell.png" style="width:90%;" alt="notebook-cell">
@@ -160,7 +160,7 @@ dimension_customer_schema = StructType([
     StructField('LineageKey', IntegerType(), True)])
 
 df = spark.read.format("csv").schema(dimension_customer_schema).option("header","true").load('Files/full/' + table_name)
-df.write.mode("overwrite").format("delta").saveAsTable(table_name)
+df.write.mode("overwrite").format("delta").save("Tables/" + table_name)
 ```
 
 ### Dimension table - date
@@ -191,7 +191,7 @@ dimension_date_schema = StructType([
     StructField('ISOWeekNumber', IntegerType(), True)])
 
 df = spark.read.format("csv").schema(dimension_date_schema).option("header","true").load('Files/full/' + table_name)
-df.write.mode("overwrite").format("delta").saveAsTable(table_name)
+df.write.mode("overwrite").format("delta").save("Tables/" + table_name)
 ```
 
 ### Dimension table - employee
@@ -216,7 +216,7 @@ dimension_employee_schema = StructType([
     StructField('LineageKey', IntegerType(), True)])
 
 df = spark.read.format("csv").schema(dimension_employee_schema).option("header","true").load('Files/full/' + table_name)
-df.write.mode("overwrite").format("delta").saveAsTable(table_name)
+df.write.mode("overwrite").format("delta").save("Tables/" + table_name)
 ```
 
 ### Dimension table - stock item
@@ -252,7 +252,7 @@ dimension_stock_item_schema = StructType([
     StructField('LineageKey', IntegerType(), True)])
 
 df = spark.read.format("csv").schema(dimension_stock_item_schema).option("header","true").load('Files/full/' + table_name)
-df.write.mode("overwrite").format("delta").saveAsTable(table_name)
+df.write.mode("overwrite").format("delta").save("Tables/" + table_name)
 ```
 
 모든 작업이 완료하면, 레이크하우스 탐색기에서 **Tables > 점 3개(...) > 새로 고침** 메뉴를 클릭하여 차원 테이블들이 제대로 생성되었는지 확인합니다.
@@ -312,7 +312,7 @@ df = df.withColumn('Year', year(col("InvoiceDateKey")))
 df = df.withColumn('Quarter', quarter(col("InvoiceDateKey")))
 df = df.withColumn('Month', month(col("InvoiceDateKey")))
 
-df.write.mode("overwrite").format("delta").partitionBy("Year","Quarter").saveAsTable(table_name)
+df.write.mode("overwrite").format("delta").partitionBy("Year","Quarter").save("Tables/" + table_name)
 ```
 
 모든 실행이 정상적으로 수행되었다면, 레이크하우스 탐색기에서 다음과 같이 테이블들을 확인할 수 있습니다.
