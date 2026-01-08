@@ -1,5 +1,3 @@
-# 작업 중입니다.
-
 # Azure SQL Database의 CDC를 이용하여 Real time intelligence 환경 구축하기
 
 ## 배경
