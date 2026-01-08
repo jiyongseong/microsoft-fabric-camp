@@ -61,48 +61,22 @@ Microsoft Fabric에서 제공되는 각 기능별 hands-on lab입니다.
 *현재 작업 중에 있습니다*
 
 ### 🏗️ Data Factory
-- [Overview]
-- [Data Pipelines]
-- [Connectors]
-- [Copy Job]
-- [Apache Airflow]
-- [Dataflow]
-- [Fast Copy]
-- [Copilot Data Factory]
-- [Zero copy, Zero ETL approach(Mirroring, Open mirroring, Shortcuts)]
 
 ### ⚡ Real Time Intelligence
-- [Batch to Real time intelligence - Azure SQL Database]
-- [Real Time Hub]
-- [Activator]
+- [Azure SQL Database의 CDC를 이용하여 Real time intelligence 환경 구축하기](./hands-on/rti/batch-2-rti-azure-sql-db.md)
 
 ### 🗄️ Databases
-- [Simpliofied]
-- [Autonomous]
-- [Optimized for AI]
 
 ### 🏞️ Data Engineering
-- [Lakehouse - overview]
-- [Spark Runtime]
-- [Notebook]
+
 
 ### 🏢 Data Warehouse
-- [Data Warehouse - overview]
-- [Autonomous]
-- [Monitoring]
 
 ### 📈 Data Science
-- [End-to-end worklflows]
-- [AI functions]
-- [MLFlow]
-- [Model scoring]
-- [Explore, clean & prepare]
-- [Data Wrangler]
+
 
 ### 📊 Power BI
-- [Direct Lake mode]
-- [Semantic model]
-- [Copilot for Power BI]
+
 
 ### 🤖 Copilot & AI in Microsoft Fabric
 ### 🌊 OneLake
