@@ -34,11 +34,11 @@ Microsoft Fabric 포털에서 좌측 메뉴에서 **작업 영역**을 클릭하
 
 <img src="../Lab2 Microsoft Fabric Lakehouse/images/handson-workspace.png" style="width:50%;" alt="handson-workspace">
 
-작업 영역 화면에서, 좌측 상단에 있는 **+ 새 항목** 버튼을 클릭하여, **새 항목 > 데이터 저장 > Eventhouse**를 클릭합니다.
+작업 영역 화면에서, 좌측 상단에 있는 `+ 새 항목` 버튼을 클릭하여, `새 항목 > 데이터 저장 > Eventhouse`를 클릭합니다.
 
 <img src="./images/eventhouse.png" style="width:80%;" alt="eventhouse">
 
-**New Eventhouse** 창에서 Eventhouse name에 "StockMarket"을 입력하고, **Create** 버튼을 클릭합니다.
+**New Eventhouse** 창에서 Eventhouse name에 "StockMarket"을 입력하고, `Create` 버튼을 클릭합니다.
 
 <img src="./images/new-eventhouse.png" style="width:50%;" alt="new-eventhouse">
 
@@ -51,38 +51,38 @@ Microsoft Fabric 포털에서 좌측 메뉴에서 **작업 영역**을 클릭하
 
 <img src="./images/onelake-availability.png" style="width:80%;" alt="onelake-availability">
 
-**Enable OneLake Availability** 화면이 나타나면, **Enable** 버튼을 클릭하여 활성화 합니다.
+**Enable OneLake Availability** 화면이 나타나면, `Enable` 버튼을 클릭하여 활성화 합니다.
 
 <img src="./images/enable-onelake-availability.png" style="width:50%;" alt="enable-onelake-availability">
 
 # 4.4 이벤트스트림 생성
 이벤트스트림은 Azure Event Hubs나 Kafka clients와 같은 다양한 소스로부터 이벤트를 캡처하도록 설계되어 있습니다.
 
-KQL 데이터베이스 화면에서 **Get data > Eventstream > 새 Eventstram**을 클릭하거나,
+KQL 데이터베이스 화면에서 `Get data > Eventstream > 새 Eventstram`을 클릭하거나,
 
 <img src="./images/get-data-new-eventstream.png" style="width:50%;" alt="get-data-new-eventstream">
 
-작업 영역 화면에서, 좌측 상단에 있는 **+ 새 항목** 버튼을 클릭하여, **새 항목 > 데이터 가져오기 > Eventstream**를 클릭합니다.
+작업 영역 화면에서, 좌측 상단에 있는 `+ 새 항목` 버튼을 클릭하여, `새 항목 > 데이터 가져오기 > Eventstream`를 클릭합니다.
 
 <img src="./images/new-eventstream.png" style="width:80%;" alt="new-eventstream">
 
-**New Eventstream** 창에서는 **Name** 항목에 "StockMarket-Stream"을 입력하고, **Create** 버튼을 클릭합니다.
+**New Eventstream** 창에서는 **Name** 항목에 "StockMarket-Stream"을 입력하고, `Create` 버튼을 클릭합니다.
 
 <img src="./images/new-eventstream-name.png" style="width:50%;" alt="new-eventstream-name">
 
-이벤트스트림 생성이 완료되면, 화면 좌측 상단에서 **Add source > Sample data**를 클릭합니다.
+이벤트스트림 생성이 완료되면, 화면 좌측 상단에서 `Add source > Sample data`를 클릭합니다.
 
 <img src="./images/add-source.png" style="width:50%;" alt="add-source">
 
-**Sample data**는 **Stock Market (high data-rate)**을 선택하고, **Source name**에는 "StockMarket-Source"를 입력하고, **Add** 버튼을 클릭합니다.
+**Sample data**는 **Stock Market (high data-rate)**을 선택하고, **Source name**에는 "StockMarket-Source"를 입력하고, `Add` 버튼을 클릭합니다.
 
 <img src="./images/sample-data.png" style="width:80%;" alt="sample-data">
 
-다음의 화면에서 화면 우측 상단의 **Publish** 버튼을 클릭합니다.
+다음의 화면에서 화면 우측 상단의 `Publish` 버튼을 클릭합니다.
 
 <img src="./images/publish.png" style="width:80%;" alt="publish">
 
-다시, KQL 데이터베이스 화면으로 돌아와서 **Get data > Eventstream > 기존 Eventstram**을 클릭합니다.
+다시, KQL 데이터베이스 화면으로 돌아와서 `Get data > Eventstream > 기존 Eventstram`을 클릭합니다.
 
 <img src="./images/existing-eventstream.png" style="width:70%;" alt="existing-eventstream">
 
@@ -90,7 +90,7 @@ KQL 데이터베이스 화면에서 **Get data > Eventstream > 새 Eventstram**�
 
 <img src="./images/source.png" style="width:70%;" alt="source">
 
-**대상 테이블을 선택하고 원본 구성** 화면에서는 "TB_StockMarket"이라는 이름으로 테이블을 생성하고, **다음** 버튼을 클릭합니다.
+**대상 테이블을 선택하고 원본 구성** 화면에서는 "TB_StockMarket"이라는 이름으로 테이블을 생성하고, `다음` 버튼을 클릭합니다.
 
 <img src="./images/configure.png" style="width:50%;" alt="configure">
 
@@ -99,11 +99,11 @@ KQL 데이터베이스 화면에서 **Get data > Eventstream > 새 Eventstram**�
 <img src="./images/edit.png" style="width:30%;" alt="edit">
 
 **lastUpdated** 컬럼과 **lastSaleTime** 컬럼은 Microsoft Fabric에 의해서 자동으로 데이터 타입이 설정된 것을 볼 수 있습니다.
-**적용 > 마침** 버튼을 눌러서 스키마를 확정하고 작업을 완료합니다.
+`적용 > 마침` 버튼을 눌러서 스키마를 확정하고 작업을 완료합니다.
 
 <img src="./images/schema.png" style="width:80%;" alt="schema">
 
-Microsoft Fabric은 테이블, 매핑, 데이터 연결 등을 생성합니다. **닫기** 버튼을 클릭합니다.
+Microsoft Fabric은 테이블, 매핑, 데이터 연결 등을 생성합니다. `닫기` 버튼을 클릭합니다.
 
 <img src="./images/summary.png" style="width:80%;" alt="summary">
 
@@ -122,19 +122,19 @@ KQL 쿼리의 구조는 일반적인 SQL 언어들과는 약간 다릅니다. �
 
 KQL을 활용하여 본격적으로 주식 거래소 데이터를 분석해보도록 하겠습니다.
 
-작업 영역 화면에서, 좌측 상단에 있는 **+ 새 항목** 버튼을 클릭하여, **새 항목 > 데이터 추적 > KQL 쿼리 집합**을 클릭합니다.
+작업 영역 화면에서, 좌측 상단에 있는 `+ 새 항목` 버튼을 클릭하여, `새 항목 > 데이터 추적 > KQL 쿼리 집합`을 클릭합니다.
 
 <img src="./images/kql-queryset.png" style="width:80%;" alt="kql-queryset">
 
-**New KQL Queryset** 창에서는 "Stock Market Analysis"라고 이름을 입력하고 **Create** 버튼을 클릭하여 생성합니다.
+**New KQL Queryset** 창에서는 "Stock Market Analysis"라고 이름을 입력하고 `Create` 버튼을 클릭하여 생성합니다.
 
 <img src="./images/new-kql-queryset.png" style="width:80%;" alt="new-kql-queryset">
 
-화면 좌측 상단의 **Add data source > Eventhouse / KQL Database**를 선택합니다.
+화면 좌측 상단의 `Add data source > Eventhouse / KQL Database`를 선택합니다.
 
 <img src="./images/add-data-source.png" style="width:80%;" alt="add-data-source">
 
-**조직의 데이터베이스를 찾아 데이터 탐색** 창에서, 앞서 생성한 StockMarket을 선택하고 **연결** 버튼을 클릭합니다.
+**조직의 데이터베이스를 찾아 데이터 탐색** 창에서, 앞서 생성한 StockMarket을 선택하고 `연결` 버튼을 클릭합니다.
 
 <img src="./images/select-data-source.png" style="width:80%;" alt="select-data-source">
 
@@ -143,7 +143,7 @@ KQL을 활용하여 본격적으로 주식 거래소 데이터를 분석해보�
 <img src="./images/new-kql-queryset-empty.png" style="width:80%;" alt="new-kql-queryset-empty">
 
 쿼리 편집기에 미리 입력되어 있던, 코드 예제를 지우고 다음의 쿼리를 복사하여 붙여넣기 합니다. (*해당 쿼리는 테이블의 전체 행의 수를 반환하게 됩니다*)
-쿼리창 좌측 상단의 **실행** 버튼을 클릭하여 쿼리를 실행합니다.
+쿼리창 좌측 상단의 `실행` 버튼을 클릭하여 쿼리를 실행합니다.
 
 **주의 : KQL은 대소문자를 구분합니다**
 
@@ -195,7 +195,7 @@ KQL 엔진은 해당 SQL 코드를 자동으로 KQL로 변환하여 실행하고
 
 <img src="./images/sum-total-bidsize.png" style="width:80%;" alt="sum-total-bidsize">
 
-좌측 상당의 리본 메뉴에서 **저장** 버튼을 클릭하여, 쿼리를 저장합니다.
+좌측 상당의 리본 메뉴에서 `저장` 버튼을 클릭하여, 쿼리를 저장합니다.
 
 지금까지 살펴본 쿼리들은 KQL과 이벤트 스트림으로 할 수 있는 작업의 극히 일부에 불과합니다. 지리 공간 분석, 윈도우 함수, 누락 데이터 추론, 그래프, 함수 등 수많은 분석이 가능합니다.
 지금까지 몇 개의 쿼리 탐색을 통하여 데이터셋에 대해 조금 알게 되었으니, 실시간 데이터셋을 사용해 Power BI 보고서를 만드는 방법에 대해서 살펴보도록 하겠습니다.
@@ -207,12 +207,12 @@ Fabric의 다른 기능들과 마찬가지로, 실시간 분석은 Power BI와 �
 
 Hands on workspace 탐색창에서 **StockMarket KQL 데이터베이스** 클릭하여 엽니다.
 
-좌측 탐색기에서 **Tables > TB_StockMarket**을 클릭하고, 리본 메뉴에서 **Create Power BI Report**를 클릭합니다.
+좌측 탐색기에서 `Tables > TB_StockMarket`을 클릭하고, 리본 메뉴에서 `Create Power BI Report`를 클릭합니다.
 
 <img src="./images/create-power-bi-report.png" style="width:80%;" alt="create-power-bi-report">
 
 ## 4.6.1 제목 작성
-리본 메뉴에서 **텍스트 상자**를 클릭합니다.
+리본 메뉴에서 `텍스트 상자`를 클릭합니다.
 
 <img src="./images/text-box.png" style="width:80%;" alt="text-box">
 
@@ -228,7 +228,7 @@ Hands on workspace 탐색창에서 **StockMarket KQL 데이터베이스** 클릭
 
 ## 4.6.2 레코드 수
 
-시각화 창에서 **카드** 시각화를 클릭합니다.
+시각화 창에서 `카드` 시각화를 클릭합니다.
 
 <img src="./images/card.png" style="width:50%;" alt="card">
 
@@ -250,7 +250,7 @@ Hands on workspace 탐색창에서 **StockMarket KQL 데이터베이스** 클릭
 
 보고서 캔버스의 빈 영역을 클립합니다.
 
-- 다시 한 번 시각화 창에서 **카드** 시각화를 선택합니다.
+- 다시 한 번 시각화 창에서 `카드` 시각화를 선택합니다.
 
    <img src="./images/card.png" style="width:50%;" alt="card">
 
@@ -264,7 +264,7 @@ Hands on workspace 탐색창에서 **StockMarket KQL 데이터베이스** 클릭
 
 보고서 캔버스의 빈 영역을 클릭합니다.
 
-- 시각화 창에서 **꺽은선형 차트**를 클릭합니다.
+- 시각화 창에서 `꺽은선형 차트`를 클릭합니다.
    <img src="./images/chart.png" style="width:50%;" alt="chart">
 
 다음과 같이 꺾은선형 차트를 설정합니다.
@@ -314,12 +314,12 @@ Hands on workspace 탐색창에서 **StockMarket KQL 데이터베이스** 클릭
 
 ## 4.6.6 보고서 저장
 
-상단 리본 메뉴에서 **파일 > 저장**을 누르고, 
+상단 리본 메뉴에서 `파일 > 저장`을 누르고, 
 
 - 파일 이름에는 "Bid Analysis Real-time"를 입력하고, 
 - 작업 영역은 "Hands on workspace"를 선택하고
 
-**계속** 버튼을 클릭합니다.
+`계속` 버튼을 클릭합니다.
 
 <img src="./images/save-pbi-report.png" style="width:80%;" alt="save-pbi-report">
 
@@ -327,6 +327,8 @@ Hands on workspace 탐색창에서 **StockMarket KQL 데이터베이스** 클릭
 
 <img src="./images/saved.png" style="width:80%;" alt="saved">
 
-**Power BI에서 파일을 열어 공유 가능한 링크를 보고 편집하고 가져옵니다.** 링크를 클릭하여 보고서 파일을 엽니다.
+`Power BI에서 파일을 열어 공유 가능한 링크를 보고 편집하고 가져옵니다.` 링크를 클릭하여 보고서 파일을 엽니다.
 
 <img src="./images/report.png" style="width:80%;" alt="report">
+
+✍️ 2025년 9월 23일 씀.

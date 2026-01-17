@@ -460,3 +460,5 @@ Azure SQL Databae의 CDC 기능과 Microsoft Fabric의 Eventstream, Eventhouse�
 - 개인화 추천(personalized recommendations)
 
 등의 시나리오가 가능해집니다.
+
+✍️ 2026년 1월 8일 씀.

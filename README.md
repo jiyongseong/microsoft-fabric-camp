@@ -58,7 +58,7 @@ Lab 2 - Lakehouse
 ## 🧪 Microsoft Fabric Hands-on lab by feature
 Microsoft Fabric에서 제공되는 각 기능별 hands-on lab입니다.
 
-*현재 작업 중에 있습니다*
+*지속적으로 업데이트 됩니다*
 
 ### 🏗️ Data Factory
 
