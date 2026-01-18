@@ -74,3 +74,5 @@ Microsoft Fabric in a Day hands-on labs에서는 Microsoft에서 제공하는 Wi
 ## 다음
 
 [Lab1 Microsoft Fabric Getting Started](../Lab1%20Microsoft%20Fabric%20Getting%20Started/Lab1%20Microsoft%20Fabric%20Getting%20Started.md) << Lab2 Microsoft Fabric Lakehouse - Overview >> [Lab2 Microsoft Fabric Lakehouse - 브론즈(Bronze) 단계](../Lab2%20Microsoft%20Fabric%20Lakehouse/Lab2%20Microsoft%20Fabric%20Lakehouse2.md)
+
+✍️ 2025년 9월 8일 씀.
