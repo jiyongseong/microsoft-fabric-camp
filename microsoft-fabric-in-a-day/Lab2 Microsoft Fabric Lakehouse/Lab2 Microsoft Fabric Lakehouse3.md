@@ -9,12 +9,11 @@
 
 먼저, 델타 레이크 테이블을 저장할 실버 레이크하우스를 생성하도록 하겠습니다.
 
-Hands on workspace 화면으로 돌아가서, 상단의 **+새 항목** 버튼을 클릭하고, **레이크하우스**를 클릭합니다.
+Hands on workspace 화면으로 돌아가서, 상단의 `+새 항목` 버튼을 클릭하고, **레이크하우스**를 클릭합니다.
 
 <img src="./images/create-silver-lakehouse.png" style="width:90%;" alt="create-silver-lakehouse">
 
-**새 lakehouse** 화면에서는 레이크하우스의 이름을 "silver_lakehouse"를 입력하고, **만들기** 버튼을 클릭하여 새로운 레이크하우스를 생성합니다.
-
+**새 lakehouse** 화면에서는 레이크하우스의 이름을 "silver_lakehouse"를 입력하고, `만들기` 버튼을 클릭하여 새로운 레이크하우스를 생성합니다.
 
 <img src="./images/new-lakeshouse(silver).png" style="width:50%;" alt="new-lakeshouse(silver)">
 
@@ -29,15 +28,15 @@ silver_lakehouse 탐색기에서 **Files >  (...) 점3개**를 클릭하고, **�
 
 <img src="./images/create-shortcut-onelake.png" style="width:70%;" alt="create-shortcut-onelake">
 
-**데이터 원본 유형 선택** 화면에서 앞서 생성한 **bronze_lakehouse**를 선택하고, **다음** 버튼을 클릭합니다.
+**데이터 원본 유형 선택** 화면에서 앞서 생성한 **bronze_lakehouse**를 선택하고, `다음` 버튼을 클릭합니다.
 
 <img src="./images/create-shortcut-onelake-lakehouse.png" style="width:70%;" alt="create-shortcut-onelake-lakehouse">
 
-**bronze_lakehouse > Files > wwi-raw-data** 경로를 열고, **full** 체크박스를 클릭하고, **다음** 버튼을 클릭합니다.
+**bronze_lakehouse > Files > wwi-raw-data** 경로를 열고, **full** 체크박스를 클릭하고, `다음` 버튼을 클릭합니다.
 
 <img src="./images/create-shortcut-onelake-lakehouse-files.png" style="width:50%;" alt="create-shortcut-onelake-lakehouse-files">
 
-**만들기** 버튼을 클릭합니다.
+`만들기` 버튼을 클릭합니다.
 
 <img src="./images/create-shortcut-location.png" style="width:90%;" alt="create-shortcut-location">
 
@@ -60,10 +59,9 @@ silver_lakehouse 레이크하우스 탐색기의 상단 메뉴에서 **노트북
 
 <img src="./images/save-notebook.png" style="width:50%;" alt="save-notebook">
 
-새 노트북 이름에 "Migration from Bronze to Silver"라고 입력하고. **저장** 버튼을 클릭합니다.
+새 노트북 이름에 "Migration from Bronze to Silver"라고 입력하고. `저장` 버튼을 클릭합니다.
 
 <img src="./images/notebook-name.png" style="width:50%;" alt="notebook-name">
-
 
 미리 만들어둔 notebook 파일은 [여기](../Lab2%20Microsoft%20Fabric%20Lakehouse/resources/Migration%20from%20Bronze%20to%20Silver.ipynb)에서 다운로드 할 수 있습니다.
 
@@ -336,3 +334,5 @@ ORDER BY Year, Quarter, Month;
 ## 다음
 
 [Lab2 Microsoft Fabric Lakehouse - 브론즈(Bronze) 단계](Lab2%20Microsoft%20Fabric%20Lakehouse2.md) << Lab2 Microsoft Fabric Lakehouse - 실버(Silver) 단계 >> [Lab2 Microsoft Fabric Lakehouse - 골드(Gold) 단계](Lab2%20Microsoft%20Fabric%20Lakehouse4.md)
+
+✍️ 2025년 9월 8일 씀.
