@@ -222,7 +222,7 @@ Data Factory 복사 작업은 코드를 작성하지 않고도 수십 여개의 
 
 <img src="./images/new-pipeline.png" style="width:50%;" alt="new-pipeline">
 
-"Loading Dimension City"라고 입력하고 **만들기** 버튼을 클릭하여 파이프라인을 생성합니다.
+"Loading Dimension City"라고 입력하고 `만들기` 버튼을 클릭하여 파이프라인을 생성합니다.
 
 <img src="./images/loading-dimension-city.png" style="width:50%;" alt="loading-dimension-city">
 
@@ -230,11 +230,11 @@ Data Factory 복사 작업은 코드를 작성하지 않고도 수십 여개의 
 
 <img src="./images/sample-data.png" style="width:80%;" alt="sample-data">
 
-**데이터 원본에 연결** 화면에서는 **dimension_city**를 선택하고, **다음** 버튼을 클릭합니다.
+**데이터 원본에 연결** 화면에서는 **dimension_city**를 선택하고, `다음` 버튼을 클릭합니다.
 
 <img src="./images/dimension-city.png" style="width:80%;" alt="dimension-city">
 
-다음의 설정을 구성하고, **다음** 버튼을 클릭합니다.
+다음의 설정을 구성하고, `다음` 버튼을 클릭합니다.
 
 - 로드 설정 : 기본 테이블에 로드
 - 테이블 : stage.DimCity
@@ -268,7 +268,7 @@ T-SQL을 사용하여 데이터를 대량으로 로드하는 방법은 두 가�
 
 <img src="./images/new-query.png" style="width:80%;" alt="new-query">
 
-다음의 SQL 구문들을 복사하여 붙여넣기 하고, 상단의 **실행** 버튼을 클릭하여 실행합니다.
+다음의 SQL 구문들을 복사하여 붙여넣기 하고, 상단의 `실행` 버튼을 클릭하여 실행합니다.
 
 ```sql
  COPY INTO [stage].[DimDate]
@@ -377,12 +377,14 @@ ORDER BY
 
 <img src="./images/table-columns.png" style="width:50%;" alt="table-columns">
 
-**파일 > 저장** 버튼을 눌러서 보고서를 저장합니다.
+`파일 > 저장` 버튼을 눌러서 보고서를 저장합니다.
 
 <img src="./images/save-report.png" style="width:50%;" alt="save-report">
 
-"Sales Analysis"를 입력하고, **저장** 버튼을 클릭합니다. 
+"Sales Analysis"를 입력하고, `저장` 버튼을 클릭합니다. 
 
 <img src="./images/sales-analysis.png" style="width:80%;" alt="sales-analysis">
 
 <img src="./images/report.png" style="width:80%;" alt="report">
+
+✍️ 2025년 9월 15일 씀.
