@@ -13,11 +13,11 @@ Microsoft Fabric 포털에서 좌측 메뉴에서 **작업 영역**을 클릭하
 
 ## 2.3.1 브론즈 레이크하우스 만들기
 
-작업 영역 화면에서, 좌측 상단에 있는 **+ 새 항목** 버튼을 클릭하여, **새 항목 > 데이터 저장 > 레이크하우스**를 클릭합니다.
+작업 영역 화면에서, 좌측 상단에 있는 `+ 새 항목` 버튼을 클릭하여, `새 항목 > 데이터 저장 > 레이크하우스`를 클릭합니다.
 
 <img src="./images/create-bronze-lakehouse.png" style="width:90%;" alt="create-bronze-lakehouse">
 
-**새 lakehouse** 화면에서는 레이크하우스의 이름을 "bronze_lakehouse"를 입력하고, **만들기** 버튼을 클릭하여 새로운 레이크하우스를 생성합니다.
+**새 lakehouse** 화면에서는 레이크하우스의 이름을 "bronze_lakehouse"를 입력하고, `만들기` 버튼을 클릭하여 새로운 레이크하우스를 생성합니다.
 
 <img src="./images/new-lakehouse.png" style="width:50%;" alt="new-lakehouse">
 
@@ -28,15 +28,15 @@ Mictosoft Fabric 포털 왼쪽 메뉴에서 **Hands on workspace"를 클릭하�
 
 <img src="./images/switch-to-lakehouse.png" style="width:50%;" alt="switch-to-lakehouse">
 
-작업 영역 좌측 상단에서 **+ 새 항목 > 데이터 가져오기 > Data pipeline"을 클릭합니다.
+작업 영역 좌측 상단에서 `+ 새 항목 > 데이터 가져오기 > Data pipeline`을 클릭합니다.
 
 <img src="./images/new-data-pipeline.png" style="width:70%;" alt="new-data-pipeline">
 
-**새 파이프라인** 화면에서 이름("Ingest data from source to bronze")을 입력하고, **만들기** 버튼을 클릭하여 새로운 데이터 파이프라인을 생성합니다.
+**새 파이프라인** 화면에서 이름("Ingest data from source to bronze")을 입력하고, `만들기` 버튼을 클릭하여 새로운 데이터 파이프라인을 생성합니다.
 
 <img src="./images/new-pipeline.png" style="width:50%;" alt="new-pipeline">
 
-새로운 데이터 파이프라인이 생성되면, **빈 캔버스로 시작**의 **파일프라인 활동**을 클릭합니다.
+새로운 데이터 파이프라인이 생성되면, `빈 캔버스로 시작`의 `파일프라인 활동`을 클릭합니다.
 
 <img src="./images/data-pipeline-empty-canvas.png" style="width:70%;" alt="data-pipeline-empty-canvas">
 
@@ -59,7 +59,7 @@ Mictosoft Fabric 포털 왼쪽 메뉴에서 **Hands on workspace"를 클릭하�
 - 연결 이름 : *wwisampledata*
 - 인증 종류 : *익명*
 
-입력이 완료되었으면, **연결** 버튼을 클릭합니다.
+입력이 완료되었으면, `연결` 버튼을 클릭합니다.
 
 <img src="./images/data-source-blob-name.png" style="width:80%;" alt="data-source-blob-name">
 
@@ -72,7 +72,7 @@ Mictosoft Fabric 포털 왼쪽 메뉴에서 **Hands on workspace"를 클릭하�
 
 <img src="./images/data-source-blob-file-path.png" style="width:80%;" alt="data-source-blob-file-path">
 
-캔버스의 중간 메뉴에서 **대상**을 선택하고, **연결**의 드롭다운 메뉴를 클릭하고, **모두 찾아보기**를 클릭합니다.
+캔버스의 중간 메뉴에서 **대상**을 선택하고, **연결**의 드롭다운 메뉴를 클릭하고, `모두 찾아보기`를 클릭합니다.
 
 <img src="./images/data-target.png" style="width:60%;" alt="data-target">
 
@@ -88,7 +88,7 @@ Mictosoft Fabric 포털 왼쪽 메뉴에서 **Hands on workspace"를 클릭하�
 ## 2.3.3 데이터 파이프 라인 실행하기
 
 설정이 완료되면, 캔버스 우측 상단의 저장 버튼을 클릭하여 저장하고,
-**실행** 버튼을 클릭하여 데이터 파이프라인을 실행합니다.
+`실행` 버튼을 클릭하여 데이터 파이프라인을 실행합니다.
 
 <img src="./images/data-pipeline-execute.png" style="width:70%;" alt="data-pipeline-execute">
 
@@ -125,3 +125,5 @@ Mictosoft Fabric 포털 왼쪽 메뉴에서 **Hands on workspace"를 클릭하�
 ## 다음
 
 [Lab2 Microsoft Fabric Lakehouse - Overview](../Lab2%20Microsoft%20Fabric%20Lakehouse/Lab2%20Microsoft%20Fabric%20Lakehouse1.md) << Lab2 Microsoft Fabric Lakehouse - 브론즈(Bronze) 단계 >> [Lab2 Microsoft Fabric Lakehouse - 실버(Silver) 단계](../Lab2%20Microsoft%20Fabric%20Lakehouse/Lab2%20Microsoft%20Fabric%20Lakehouse3.md)
+
+✍️ 2025년 9월 8일 씀.
