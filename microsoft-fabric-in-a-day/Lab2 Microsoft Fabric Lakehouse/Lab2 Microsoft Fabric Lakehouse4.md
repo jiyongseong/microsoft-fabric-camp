@@ -11,12 +11,11 @@
 
 먼저, 비지니스 집계 델타 레이크 테이블을 저장할 골드 레이크하우스를 생성하도록 하겠습니다.
 
-Hands on workspace 화면으로 돌아가서, 상단의 **+새 항목** 버튼을 클릭하고, **레이크하우스**를 클릭합니다.
+Hands on workspace 화면으로 돌아가서, 상단의 `+새 항목` 버튼을 클릭하고, **레이크하우스**를 클릭합니다.
 
 <img src="./images/create-silver-lakehouse.png" style="width:90%;" alt="create-silver-lakehouse">
 
-
-**새 lakehouse** 화면에서는 레이크하우스의 이름을 "gold_lakehouse"를 입력하고, **만들기** 버튼을 클릭하여 새로운 레이크하우스를 생성합니다.
+**새 lakehouse** 화면에서는 레이크하우스의 이름을 "gold_lakehouse"를 입력하고, `만들기` 버튼을 클릭하여 새로운 레이크하우스를 생성합니다.
 
 <img src="./images/new-lakeshouse(gold).png" style="width:50%;" alt="new-lakeshouse(gold)">
 
@@ -31,15 +30,15 @@ gold_lakehouse 탐색기에서 **Tables >  (...) 점3개**를 클릭하고, **�
 
 <img src="./images/create-shortcut-onelake.png" style="width:70%;" alt="create-shortcut-onelake">
 
-**데이터 원본 유형 선택** 화면에서 앞서 생성한 **silver_lakehouse**를 선택하고, **다음** 버튼을 클릭합니다.
+**데이터 원본 유형 선택** 화면에서 앞서 생성한 **silver_lakehouse**를 선택하고, `다음` 버튼을 클릭합니다.
 
 <img src="./images/create-shortcut-onelake-lakehouse-silver.png" style="width:70%;" alt="create-shortcut-onelake-lakehouse-silver">
 
-**새 바로가기** 화면에서, **silver_lakehouse > Tables** 경로를 열고, 모든 테이블의 체크박스를 클릭하고, **다음** 버튼을 클릭합니다.
+**새 바로가기** 화면에서, **silver_lakehouse > Tables** 경로를 열고, 모든 테이블의 체크박스를 클릭하고, `다음` 버튼을 클릭합니다.
 
 <img src="./images/create-shortcut-onelake-lakehouse-tables.png" style="width:50%;" alt="create-shortcut-onelake-lakehouse-tables">
 
-**만들기** 버튼을 클릭합니다.
+`만들기` 버튼을 클릭합니다.
 
 <img src="./images/create-shortcut-tables-location.png" style="width:90%;" alt="create-shortcut-tables-location">
 
@@ -58,7 +57,7 @@ gold_lakehouse 레이크하우스 탐색기의 상단 메뉴에서 **노트북 �
 
 <img src="./images/save-notebook-gold.png" style="width:50%;" alt="save-notebook-gold">
 
-새 노트북 이름에 "Migration from Silver to Gold"라고 입력하고. **저장** 버튼을 클릭합니다.
+새 노트북 이름에 "Migration from Silver to Gold"라고 입력하고. `저장` 버튼을 클릭합니다.
 
 <img src="./images/notebook-name-gold.png" style="width:50%;" alt="notebook-name-gold">
 
@@ -141,7 +140,7 @@ FROM aggregate_sale_by_date_city;
 ### 2.5.4.2 SparkSQL을 이용한 집계 테이블 생성
 이번에는 SparkSQL을 사용하여 데이터를 조인하고 집계하여 집계 테이블을 생성하는 방법에 대해서 살펴보겠습니다.
 
-앞서 실행한 셀 아래에 있는 **코드 셀 추가** 버튼을 클릭하여 새로운 코드 셀을 추가합니다.
+앞서 실행한 셀 아래에 있는 `코드 셀 추가` 버튼을 클릭하여 새로운 코드 셀을 추가합니다.
 다음의 코드를 복사하여 붙여넣기 합니다.
 해당 코드는 다음의 기준으로 데이터를 쿼리하여, sale_by_date_employee라는 이름의 **임시 Spark 뷰**를 생성합니다.
 
@@ -168,9 +167,9 @@ GROUP BY DD.Date, DD.CalendarMonthLabel, DD.Day, DD.ShortMonth, DD.CalendarYear,
 ORDER BY DD.Date ASC, DE.PreferredName ASC, DE.Employee ASC
 ```
 
-셀 좌측에 있는 **셀 실행** 버튼을 클릭하여, 붙여넣기한 코드를 실행합니다.
+셀 좌측에 있는 `셀 실행` 버튼을 클릭하여, 붙여넣기한 코드를 실행합니다.
 
-**코드 셀 추가** 버튼을 클릭하여 새로운 코드 셀을 추가합니다.
+`코드 셀 추가` 버튼을 클릭하여 새로운 코드 셀을 추가합니다.
 다음의 코드를 복사하여 붙여넣기하고, 실행합니다.
 해당 코드는 **sale_by_date_employee**라는 임시 뷰를 읽어서, **aggregate_sale_by_date_employee**라는 테이블에 저장하는 작업을 수행합니다.
 
@@ -183,7 +182,7 @@ sale_by_date_employee.write.mode("overwrite").format("delta").option("overwriteS
 
 <img src="./images/aggregate_sale_by_date_employee.png" style="width:90%;" alt="aggregate_sale_by_date_employee">
 
-**코드 셀 추가** 버튼을 클릭하여 새로운 코드 셀을 추가합니다.
+`코드 셀 추가` 버튼을 클릭하여 새로운 코드 셀을 추가합니다.
 다음의 코드를 복사하여 붙여넣기하고, 실행하여 aggregate_sale_by_date_employee 테이블의 데이터를 확읺합니다.
 
 ```sql
@@ -200,3 +199,5 @@ FROM aggregate_sale_by_date_employee;
 ## 다음
 
 [Lab2 Microsoft Fabric Lakehouse - 실버(Silver)](Lab2%20Microsoft%20Fabric%20Lakehouse3.md) 단계 << Lab2 Microsoft Fabric Lakehouse - 골드(Gold) 단계 >> [Lab2 Microsoft Fabric Lakehouse - 분석 단계](Lab2%20Microsoft%20Fabric%20Lakehouse5.md)
+
+✍️ 2025년 9월 9일 씀.
