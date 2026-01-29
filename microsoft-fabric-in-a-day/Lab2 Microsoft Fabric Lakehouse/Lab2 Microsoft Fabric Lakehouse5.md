@@ -35,7 +35,7 @@ GROUP BY [date].FiscalYear, sales.SalesTerritory
 ORDER BY [date].FiscalYear, SUM(sales.SumOfProfit) DESC
 ```
 
-상단의 **실행** 버튼을 클릭하여 쿼리를 실행합니다.
+상단의 `실행` 버튼을 클릭하여 쿼리를 실행합니다.
 
 <img src="./images/execute-sql-query.png" style="width:90%;" alt="execute-sql-query">
 
@@ -51,7 +51,7 @@ Power BI를 이용한 보고서를 작성해보도록 하겠습니다.
 
 **새 의미 체계 모델" 화면에서는 **Direct Lake 의미 체계 모델 이름**에는 **"gold_lakehouse_semantic_model**을 입력하고, 
 아래의 그림과 같이, 
-차원 테이블들과 팩트 테이블을 선택하고 **확인** 버튼을 클릭합니다.
+차원 테이블들과 팩트 테이블을 선택하고 `확인` 버튼을 클릭합니다.
 
 <img src="./images/create-new-semantic-model.png" style="width:90%;" alt="create-new-semantic-model">
 
@@ -72,7 +72,7 @@ Power BI를 이용한 보고서를 작성해보도록 하겠습니다.
 <img src="./images/relationship.png" style="width:70%;" alt="relationship">
 
 
-**새 관계** 창이 보여지면, 다음과 같이 설정을 하고, **저장** 버튼을 클릭합니다.
+**새 관계** 창이 보여지면, 다음과 같이 설정을 하고, `저장` 버튼을 클릭합니다.
 
 <img src="./images/new-relationship.png" style="width:70%;" alt="new-relationship">
 
@@ -95,11 +95,11 @@ Power BI를 이용한 보고서를 작성해보도록 하겠습니다.
 
 <img src="./images/create-report.png" style="width:90%;" alt="create-report">
 
-또는 **의미 체계 모델** 화면에서 ""탐색 > 빈 보고서 만들기**를 클릭합니다.
+또는 **의미 체계 모델** 화면에서 **탐색 > 빈 보고서 만들기**를 클릭합니다.
 
 <img src="./images/explorer-new-report.png" style="width:90%;" alt="explorer-new-report">
 
-메뉴 상단에서 **텍스트 상자** 버튼을 클릭합니다.
+메뉴 상단에서 `텍스트 상자` 버튼을 클릭합니다.
 
 <img src="./images/pbi-textbox.png" style="width:90%;" alt="pbi-textbox">
 
@@ -110,7 +110,7 @@ Power BI를 이용한 보고서를 작성해보도록 하겠습니다.
 보고서에 **팩트 테이블(fact table)의 행 수**를 추가해보도록 하겠습니다.
 
 **데이터** 창에서 fact_sale을 확장하고, fact_sale의 CustomerKey를 캔버스로 끌어 놓습니다.
-그다음, **시각적 개체 빌드**를 **카드(Card)**로 변경합니다.
+그다음, **시각적 개체 빌드**를 `카드(Card)`로 변경합니다.
 
 <img src="./images/pbi-card.png" style="width:90%;" alt="pbi-card">
 
@@ -126,7 +126,7 @@ Power BI를 이용한 보고서를 작성해보도록 하겠습니다.
 
 <img src="./images/pbi-chart.png" style="width:90%;" alt="pbi-chart">
 
-상단 메뉴에서 **파일> 저장**을 눌러서 보고서를 저장합니다.
+상단 메뉴에서 `파일> 저장`을 눌러서 보고서를 저장합니다.
 
 <img src="./images/pbi-save-report.png" style="width:90%;" alt="pbi-save-report">
 
@@ -139,7 +139,8 @@ Microsoft Fabric은 기본 제공 기능을 통해 레이크하우스를 기반�
 
 이번 lab에서는 Microsoft Fabric을 이용하여 메달리온 아키텍처 기반의 레이크하우스를 구현하는 기본적인 단계들을 살펴보았습니다.
 
-
 ## 다음
 
 [Lab2 Microsoft Fabric Lakehouse - 골드(Gold) 단계](Lab2%20Microsoft%20Fabric%20Lakehouse4.md) << Lab2 Microsoft Fabric Lakehouse - 분석 단계
+
+✍️ 2025년 9월 9일 씀.
