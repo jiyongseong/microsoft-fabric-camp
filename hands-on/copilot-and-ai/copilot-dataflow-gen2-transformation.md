@@ -1,4 +1,4 @@
-# Data Factory 워크로드의 Copilot 기능 (Dataflow Gen2) - Transformation
+# Data Factory 워크로드의 Copilot 기능 (Dataflow Gen2) - 변환 단계 생성
 
 MSFT Fabric의 Data Facitory는 Dataflow Gen2와 pipeline 기능을 제공합니다.
 
@@ -52,7 +52,7 @@ Dataflow Gen2에서는 Copilot은 다음과 같은 작업을 수행할 수 있�
 
 <img src='./images/dataflow-gen2-new-source-connection.png'>
 
-- URL에 'https://services.OData.org/V4/Northwind/Northwind.svc'을 입력하고
+- URL에 'https://services.OData.org/V4/Northwind/Northwind.svc' 을 입력하고
 - `Next` 버튼을 클릭합니다.
 
 <img src='./images/dataflow-gen2-choose-data.png'>
