@@ -1,4 +1,4 @@
-# Data Factory 워크로드의 Copilot 기능 (Dataflow Gen2) - Generate complex queries
+# Data Factory 워크로드의 Copilot 기능 (Dataflow Gen2) - 복잡한 쿼리 생성
 
 Dataflow Gen2에서는 Copilot은 다음과 같은 작업을 수행할 수 있습니다.
 
