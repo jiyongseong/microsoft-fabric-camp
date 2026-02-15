@@ -80,8 +80,10 @@ Microsoft Fabric에서 제공되는 각 기능별 hands-on lab입니다.
 
 ### 🤖 Copilot & AI in Microsoft Fabric
 - [Microsoft Fabric의 Copilot과 AI 기능](/hands-on/copilot-and-ai/copilot-and-ai-in-msft-fabric.md)
-- [Data Factory 워크로드의 Copilot 기능 (Dataflow Gen2)](/hands-on/copilot-and-ai/copilot-dataflow-gen2.md)
-
+- Data Factory 워크로드의 Copilot 기능
+    - [Dataflow Gen2 - 변환 단계 생성](/hands-on/copilot-and-ai/copilot-dataflow-gen2-transformation.md)
+    - [Dataflow Gen2 - 복잡한 쿼리 생성](/hands-on/copilot-and-ai/copilot-dataflow-gen2-complex-quries.md)
+    - [Dataflow Gen2 - New Query 생성 및 요약](/hands-on/copilot-and-ai/copilot-dataflow-gen2-new-query.md)
 
 ### 🌊 OneLake
 ### 🔐 Security, Governance & Admin
