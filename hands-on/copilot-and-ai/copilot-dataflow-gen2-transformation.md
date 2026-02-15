@@ -1,5 +1,8 @@
-# Data Factory 워크로드의 Copilot 기능 (Dataflow Gen2)
-MSFT Fabric의 Data Facitory의 Dataflow Gen2에서 Copilot은 다음과 같은 작업을 수행할 수 있습니다.
+# Data Factory 워크로드의 Copilot 기능 (Dataflow Gen2) - Transformation
+
+MSFT Fabric의 Data Facitory는 Dataflow Gen2와 pipeline 기능을 제공합니다.
+
+Dataflow Gen2에서는 Copilot은 다음과 같은 작업을 수행할 수 있습니다.
 
 - 기존 쿼리에 대한 새 변환 단계 생성
 - 쿼리 및 적용된 단계에 대한 요약 제공
