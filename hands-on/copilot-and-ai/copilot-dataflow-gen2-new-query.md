@@ -8,6 +8,14 @@ Dataflow Gen2에서는 Copilot은 다음과 같은 작업을 수행할 수 있�
 
 이번 lab에서는 **기존 쿼리에 대한 참조를 포함할 수 있는 새 쿼리 생성**하는 기능에 대해서 살펴보도록 하겠습니다.
 
+## 필수 조건
+Microsoft Fabric에서 Copilot을 사용하기 위해서는 Fabric의 테넌트 설정에서 Copilot 옵션을 활성화해주어야 합니다.
+
+설정과 관련된 자세한 내용은 다음의 링크를 참고하시기 바랍니다.
+
+[https://learn.microsoft.com/ko-kr/fabric/admin/service-admin-portal-copilot](https://learn.microsoft.com/ko-kr/fabric/admin/service-admin-portal-copilot)
+
+
 ## Dataflow Gen2 만들기
 
 새로운 Dataflow Gen2를 생성합니다.

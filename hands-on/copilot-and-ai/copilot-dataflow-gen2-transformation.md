@@ -14,6 +14,14 @@ Dataflow Gen2에서는 Copilot은 다음과 같은 작업을 수행할 수 있�
 
 [Dataflow Gen2를 사용하여 데이터를 증분 방식으로 축적하는 패턴](https://learn.microsoft.com/ko-kr/fabric/data-factory/tutorial-setup-incremental-refresh-with-dataflows-gen2)
 
+## 필수 조건
+Microsoft Fabric에서 Copilot을 사용하기 위해서는 Fabric의 테넌트 설정에서 Copilot 옵션을 활성화해주어야 합니다.
+
+설정과 관련된 자세한 내용은 다음의 링크를 참고하시기 바랍니다.
+
+[https://learn.microsoft.com/ko-kr/fabric/admin/service-admin-portal-copilot](https://learn.microsoft.com/ko-kr/fabric/admin/service-admin-portal-copilot)
+
+
 ## Lakehouse 만들기
 [링크](https://learn.microsoft.com/ko-kr/fabric/data-factory/tutorial-setup-incremental-refresh-with-dataflows-gen2#create-a-dataflow-to-load-data-from-an-odata-source-into-a-lakehouse)에서 설명하는 것과 같이, Workspace에 새로운 lakehouse를 생성합니다.
 
