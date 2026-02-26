@@ -28,7 +28,7 @@ Microsoft Fabric의 핵심 구성 요소와 아키텍처를 **실습 중심 (Han
 프로젝트에 대한 제안이나 수정 사항은 Issue 또는 Pull Request를 통해 언제든지 환영합니다.
 
 ## 📜 License
-이 리포지토리는 GPL-3.0 License 하에 배포됩니다. 
+이 리포지토리는 GPL-3.0 License 하에 배포되었지만, 누구나 자유롭게 활용할 수 있습니다.
 
 ## ✨ Maintainer
 Ji Yong Seong (MSFT)
