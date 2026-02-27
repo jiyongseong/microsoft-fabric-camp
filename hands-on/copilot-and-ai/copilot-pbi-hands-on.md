@@ -108,4 +108,6 @@ Copilot의 요약 기능은 두 가지 방식으로 제공됩니다:
 
 https://github.com/user-attachments/assets/0f458746-1213-450f-88c4-454338069032
 
+https://github.com/user-attachments/assets/35b12e68-51c1-4206-b301-a939241cfc82
+
 ✍️ 2026년 2월 27일 씀.
