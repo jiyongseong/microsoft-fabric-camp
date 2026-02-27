@@ -1,4 +1,4 @@
-# Power BI의 Copilot 기능 - 자연어로 보고서 생성하기
+# Power BI의 Copilot 기능 - hands-on
 
 ## 필수 조건
 해당 hands-on은 [Lab2 Lakehouse 환경](/microsoft-fabric-in-a-day/Lab2%20Microsoft%20Fabric%20Lakehouse/Lab2%20Microsoft%20Fabric%20Lakehouse1.md)의 샘플 데이터를 활용하고 있습니다. 반드시 Lab2 Lakehouse 환경이 생성되어 있어야 합니다.

@@ -85,7 +85,7 @@ Microsoft Fabric에서 제공되는 각 기능별 hands-on lab입니다.
     - [Dataflow Gen2 - 복잡한 쿼리 생성](/hands-on/copilot-and-ai/copilot-dataflow-gen2-complex-quries.md)
     - [Dataflow Gen2 - New Query 생성 및 요약](/hands-on/copilot-and-ai/copilot-dataflow-gen2-new-query.md)
 - [Power BI의 Copilot 기능](/hands-on/copilot-and-ai/copilot-pbi.md)
-    - [Hands-on](/hands-on/copilot-and-ai/copilot-pbi-create-report.md)
+    - [Hands-on](/hands-on/copilot-and-ai/copilot-pbi-hands-on.md)
 
 ### 🌊 OneLake
 ### 🔐 Security, Governance & Admin
