@@ -324,7 +324,7 @@ df.write.mode("overwrite").format("delta").partitionBy("Year","Quarter").saveAsT
 ```python
 %%sql
 SELECT Year, Quarter, Month, count(*)
-FROM fact_sale 
+FROM dbo.fact_sale 
 GROUP BY Year, Quarter, Month
 ORDER BY Year, Quarter, Month;
 ```
