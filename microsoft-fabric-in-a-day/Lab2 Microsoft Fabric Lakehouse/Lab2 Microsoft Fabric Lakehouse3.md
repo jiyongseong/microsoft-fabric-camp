@@ -94,7 +94,7 @@ dimension_city_schema = StructType([
     StructField('LineageKey', IntegerType(), True)])
 
 df = spark.read.format("csv").schema(dimension_city_schema).option("header","true").load('Files/full/' + table_name)
-df.write.mode("overwrite").format("delta").save("Tables/" + table_name)
+df.write.mode("overwrite").format("delta").saveAsTable("dbo." + table_name)
 ```
 
 <img src="./images/notebook-cell.png" style="width:90%;" alt="notebook-cell">
