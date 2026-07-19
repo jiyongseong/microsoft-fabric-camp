@@ -187,7 +187,8 @@ ORDER BY
 해당 코드는 **sale_by_date_employee**라는 임시 뷰를 읽어서, **aggregate_sale_by_date_employee**라는 테이블에 저장하는 작업을 수행합니다.
 
 ```python
-sale_by_date_employee.write.mode("overwrite").format("delta").option("overwriteSchema", "true").save("Tables/aggregate_sale_by_date_employee")
+%%pyspark
+sale_by_date_employee.write.mode("overwrite").format("delta").option("overwriteSchema", "true").saveAsTable("dbo.aggregate_sale_by_date_employee")
 ```
 
 좌측의 탐색기에서 **Tables > 점 3개(...) > 새로 고침** 메뉴를 클릭하고, **aggregate_sale_by_date_employee** 테이블이 정상적으로 생성되었는지 확인합니다.
