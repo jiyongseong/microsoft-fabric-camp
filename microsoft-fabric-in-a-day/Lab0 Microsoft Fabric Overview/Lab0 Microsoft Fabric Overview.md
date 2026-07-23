@@ -246,6 +246,8 @@ Fabric은 데이터 수집과 인사이트 전달을 위해 외부 시스템과 
 ## 참고 자료
 [Microsoft Fabric Overview FY26 JYSEONG](/microsoft-fabric-in-a-day/Lab0%20Microsoft%20Fabric%20Overview/resources/Microsoft%20Fabric%20Overview%20FY26%20JYSEONG.pdf)
 
+✍️ 2026년 7월 23일 씀.
+
 ## 다음
 
 Lab0 Microsoft Fabric Overview >> [Lab1 Microsoft Fabric Getting Started](/microsoft-fabric-in-a-day/Lab1%20Microsoft%20Fabric%20Getting%20Started/Lab1%20Microsoft%20Fabric%20Getting%20Started.md)
